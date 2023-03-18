@@ -7,20 +7,19 @@
     android:background="#35603C"
     android:orientation="vertical"
     android:screenOrientation="landscape"
-    tools:context=".MainActivity"
+    tools:context=".LogActivity"
     >
 
     <ImageView
         android:id="@+id/imagebous"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="325dp"
+        android:layout_height="714dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407"
-        app:srcCompat="@drawable/rectangle_1" />
+        app:layout_constraintVertical_bias="0.941"
+        app:srcCompat="@drawable/fon_sh" />
 
     <TextView
         android:id="@+id/some_id"
@@ -148,7 +147,7 @@
         app:layout_constraintVertical_bias="0.922" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textREg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Зареєструйтеся"
