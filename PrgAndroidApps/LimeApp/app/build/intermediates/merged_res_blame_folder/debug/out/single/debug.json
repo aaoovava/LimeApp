@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/layout_main_screen_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/layout/main_screen_activity.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_fon_sh.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/fon_sh.png"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_butons_st.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/butons_st.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/xml_backup_rules.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_rectangle_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/rectangle_1.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_regicon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/regicon.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_id_card.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/id_card.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/font_abeezee.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/font/abeezee.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/layout_login_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/layout/login_activity.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_rectangle_7oki.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/rectangle_7oki.png"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/layout_reg_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/layout/reg_activity.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_vector.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/vector.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_text_edit.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/text_edit.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_mainpad.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/mainpad.png"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_cardconteiner.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/cardconteiner.png"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_login_guy.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/login_guy.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_ellipse_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/ellipse_1.xml"
+    },
+    {
+        "merged": "com.example.limeapp-merged_res-25:/layout_reg_activity.xml.flat",
+        "source": "com.example.limeapp-main-27:/layout/reg_activity.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_ellipse_3.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/ellipse_3.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_logo.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/logo.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_passimg.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/passimg.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_phone_icon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/phone_icon.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-25:/drawable_appiconmainscreen.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-27:/drawable/appiconmainscreen.xml"
+    }
+]
