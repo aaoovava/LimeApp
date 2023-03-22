@@ -2,5 +2,8 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/abeezee</item>
+        <item>@font/amiko_bold</item>
+        <item>@font/archivo_bold</item>
+        <item>@font/sd</item>
     </array>
 </resources>

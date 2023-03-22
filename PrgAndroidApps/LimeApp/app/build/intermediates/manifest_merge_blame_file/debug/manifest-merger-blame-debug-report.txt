@@ -11,7 +11,7 @@
 9-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:5:5-30:19
+11-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:5:5-31:19
 12        android:allowBackup="true"
 12-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -58,11 +58,11 @@
 34-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:26:19-53
 35
 36        <meta-data
-36-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:9-29:57
+36-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:28:9-30:57
 37            android:name="preloaded_fonts"
-37-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:28:13-43
+37-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:13-43
 38            android:resource="@array/preloaded_fonts" />
-38-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:13-54
+38-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:30:13-54
 39
 40        <provider
 40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
