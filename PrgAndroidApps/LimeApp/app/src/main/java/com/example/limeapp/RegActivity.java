@@ -15,6 +15,7 @@ public class RegActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reg_activity);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
         TextView TxtButLog = (TextView) findViewById(R.id.textButLog);
         TxtButLog.setOnClickListener(new View.OnClickListener() {
             @Override

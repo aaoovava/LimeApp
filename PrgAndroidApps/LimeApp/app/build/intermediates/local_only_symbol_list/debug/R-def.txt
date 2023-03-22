@@ -5,6 +5,7 @@ array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
 color black
+color green
 color purple_200
 color purple_500
 color purple_700
@@ -20,6 +21,7 @@ drawable fon_sh
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable id_card
+drawable lime_svgrepo_com
 drawable login_guy
 drawable logo
 drawable mainpad
@@ -31,7 +33,6 @@ drawable regicon
 drawable text_edit
 drawable vector
 font abeezee
-id button4
 id button_reg
 id editTextTextPersonName
 id editTextTextPersonName2
@@ -51,6 +52,7 @@ id imageView7
 id imageView8
 id imageView9
 id imagebous
+id login_button
 id pass1
 id pass2
 id phone_number

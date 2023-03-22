@@ -1275,6 +1275,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2472,6 +2473,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable id_card
+drawable lime_svgrepo_com
 drawable login_guy
 drawable logo
 drawable m3_appbar_background
@@ -2626,7 +2628,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button4
 id buttonPanel
 id button_reg
 id cache_measures
@@ -2785,6 +2786,7 @@ id line3
 id linear
 id listMode
 id list_item
+id login_button
 id masked
 id match_constraint
 id match_parent

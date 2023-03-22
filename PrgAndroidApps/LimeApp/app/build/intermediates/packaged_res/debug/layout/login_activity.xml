@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.633"
+        app:layout_constraintVertical_bias="0.704"
         app:srcCompat="@drawable/fon_sh" />
 
     <TextView
@@ -56,12 +56,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Введіть свій айді та пароль"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/imagebous"
+        app:layout_constraintStart_toStartOf="@+id/imagebous"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.486" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -72,7 +71,7 @@
         android:drawablePadding="40dp"
         android:ems="10"
 
-        android:hint="ExampleId@1"
+        android:hint="+380960504238"
 
         android:inputType="textPersonName"
         android:text=""
@@ -84,14 +83,14 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="24dp"
-        android:layout_height="18dp"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
-        app:srcCompat="@drawable/vector" />
+        app:srcCompat="@drawable/phone_icon" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -123,7 +122,7 @@
         app:srcCompat="@drawable/passimg" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/butons_st"
@@ -138,11 +137,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+
         android:text="Немає акаунта? "
         app:layout_constraintBottom_toBottomOf="@+id/imagebous"
         app:layout_constraintEnd_toEndOf="@+id/imagebous"
-        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintHorizontal_bias="0.299"
         app:layout_constraintStart_toStartOf="@+id/imagebous"
         app:layout_constraintTop_toTopOf="@+id/imagebous"
         app:layout_constraintVertical_bias="0.922" />

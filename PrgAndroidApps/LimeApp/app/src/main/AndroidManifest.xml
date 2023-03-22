@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/lime_svgrepo_com"
         android:label="Lime"
         android:supportsRtl="true"
         android:theme="@style/Theme.LimeApp"
