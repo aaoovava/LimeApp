@@ -22,9 +22,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegActivity"
+            android:screenOrientation="portrait"
             />
-        <activity android:name=".MainScreenActivity"/>
-
+        <activity android:name=".MainScreenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProfileActivity"
+            android:screenOrientation="portrait"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

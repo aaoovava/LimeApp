@@ -4,7 +4,7 @@
             "outputFile": "com.example.limeapp-mergeDebugResources-23:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\116430c231f652ec6cb468c7433d967b\\transformed\\appcompat-1.4.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/116430c231f652ec6cb468c7433d967b/transformed/appcompat-1.4.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

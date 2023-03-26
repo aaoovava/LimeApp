@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#35603C"
     android:orientation="vertical"
-    android:screenOrientation="landscape"
-    android:background="#35603C">
+    android:screenOrientation="landscape">
 
     <ImageView
         android:id="@+id/imageView10"
@@ -102,7 +102,7 @@
         app:srcCompat="@drawable/auntofa" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/prof_bot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView17"
@@ -116,16 +116,17 @@
     <TextView
         android:id="@+id/firstDate"
         android:layout_width="110dp"
+        android:textStyle="bold"
         android:layout_height="104dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:fontFamily="@font/archivo_bold"
+        android:fontFamily="sans-serif-black"
         android:gravity="top"
         android:text="Дата
 початку дії:
 20.03.23"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.72"
@@ -139,13 +140,14 @@
         android:layout_height="104dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:fontFamily="@font/archivo_bold"
+        android:fontFamily="sans-serif-black"
         android:gravity="top"
         android:text="Дата
 закінчення дії:
 20.03.23"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.808"
@@ -153,17 +155,19 @@
         app:layout_constraintTop_toTopOf="@+id/imageView10"
         app:layout_constraintVertical_bias="0.498" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/abb"
         android:layout_width="170dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
+
         android:layout_alignParentTop="true"
-        android:fontFamily="@font/archivo_bold"
         android:gravity="center_horizontal|top"
         android:text="Абонимент"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.18"
@@ -189,12 +193,13 @@
         android:layout_height="104dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:fontFamily="@font/archivo_bold"
+        android:fontFamily="sans-serif-black"
         android:gravity="top"
         android:text="Ячало Максим
 Юрійович"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="22dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.124"

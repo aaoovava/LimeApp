@@ -30,8 +30,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.limeapp.RegActivity" />
-        <activity android:name="com.example.limeapp.MainScreenActivity" />
+        <activity
+            android:name="com.example.limeapp.RegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.limeapp.MainScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.limeapp.ProfileActivity"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -16,6 +16,7 @@ drawable appiconmainscreen
 drawable auntofa
 drawable butons_st
 drawable cardconteiner
+drawable doko
 drawable dokon
 drawable ellipse_1
 drawable ellipse_3
@@ -29,6 +30,7 @@ drawable logo
 drawable mainpad
 drawable passimg
 drawable phone_icon
+drawable profileonid
 drawable profof
 drawable rectangle_1
 drawable rectangle_7oki
@@ -37,11 +39,15 @@ drawable text_edit
 drawable user_profile_4255_1
 drawable vector
 font abeezee
+font alef_bold
 font amiko_bold
 font archivo_bold
+font maven_pro_bold
 font sd
+id DocBut
 id Name
 id abb
+id aiia
 id button_reg
 id editTextTextPersonName
 id editTextTextPersonName2
@@ -53,11 +59,14 @@ id imageView12
 id imageView13
 id imageView14
 id imageView15
+id imageView16
 id imageView17
 id imageView18
-id imageView19
 id imageView2
 id imageView20
+id imageView22
+id imageView27
+id imageView28
 id imageView3
 id imageView4
 id imageView5
@@ -71,6 +80,7 @@ id login_button
 id pass1
 id pass2
 id phone_number
+id prof_bot
 id some_id
 id textButLog
 id textREg
@@ -81,6 +91,7 @@ id textView5
 id textView6
 layout login_activity
 layout main_screen_activity
+layout profile_activity
 layout reg_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
