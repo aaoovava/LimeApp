@@ -2479,6 +2479,7 @@ drawable id_card
 drawable lime_svgrepo_com
 drawable login_guy
 drawable logo
+drawable logolime1
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2720,6 +2721,7 @@ id easeOut
 id east
 id editTextTextPersonName
 id editTextTextPersonName2
+id editTextTextPersonName3
 id edit_query
 id elastic
 id end
@@ -2763,6 +2765,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageView
 id imageView10
 id imageView11
@@ -2773,9 +2776,13 @@ id imageView15
 id imageView16
 id imageView17
 id imageView18
+id imageView19
 id imageView2
 id imageView20
+id imageView21
 id imageView22
+id imageView23
+id imageView24
 id imageView27
 id imageView28
 id imageView3

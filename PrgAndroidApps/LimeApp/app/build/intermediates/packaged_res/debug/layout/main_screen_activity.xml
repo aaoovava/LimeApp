@@ -74,7 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.996"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/mainpad" />
 
     <ImageView
@@ -116,17 +116,17 @@
     <TextView
         android:id="@+id/firstDate"
         android:layout_width="110dp"
-        android:textStyle="bold"
         android:layout_height="104dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="cursive"
         android:gravity="top"
         android:text="Дата
 початку дії:
 20.03.23"
         android:textColor="@color/black"
         android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.72"
@@ -140,7 +140,7 @@
         android:layout_height="104dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="cursive"
         android:gravity="top"
         android:text="Дата
 закінчення дії:
@@ -193,10 +193,12 @@
         android:layout_height="104dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:fontFamily="sans-serif-black"
         android:gravity="top"
+        android:lineSpacingExtra="3sp"
         android:text="Ячало Максим
-Юрійович"
+"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="22dp"
         android:textStyle="bold"
@@ -206,5 +208,17 @@
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="@+id/imageView10"
         app:layout_constraintVertical_bias="0.892" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/logolime1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

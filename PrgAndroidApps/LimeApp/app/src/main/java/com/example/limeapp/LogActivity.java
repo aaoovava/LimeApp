@@ -30,11 +30,11 @@ public class LogActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (phoneEdit.getText().toString().equals("") || pswEdit.getText().toString().equals("")){
+                if (phoneEdit.getText().toString().trim().equals("") || pswEdit.getText().toString().trim().equals("")){
 
                     Toast toast = Toast.makeText(LogActivity.this,"Неправельний номер чи пароль",Toast.LENGTH_LONG);
                     toast.show();
-                }else toMain();
+                }else logFunc(phoneEdit.getText().toString(),pswEdit.getText().toString());
             }
         });
         TxtButReg.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +44,11 @@ public class LogActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void logFunc(String toString, String toString1) {
+
+    }
+
     void toReg(){
         Intent intent = new Intent(this, RegActivity.class);
         startActivity(intent);
