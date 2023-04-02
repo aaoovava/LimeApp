@@ -2547,6 +2547,10 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id DocBut
+id EditTextAge
+id EditTextPass
+id EditTextPassRep
+id EditTextPhone
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2719,7 +2723,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName
 id editTextTextPersonName2
 id editTextTextPersonName3
 id edit_query
@@ -2904,14 +2907,11 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id pass1
-id pass2
 id password_toggle
 id path
 id pathRelative
 id peekHeight
 id percent
-id phone_number
 id pin
 id position
 id postLayout

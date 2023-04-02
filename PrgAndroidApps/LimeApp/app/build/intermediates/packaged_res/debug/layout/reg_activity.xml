@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.073" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/EditTextAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_edit"
@@ -59,16 +59,16 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextAge"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextAge"
         app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/EditTextAge"
+        app:layout_constraintTop_toTopOf="@+id/EditTextAge"
         app:layout_constraintVertical_bias="0.48"
         app:srcCompat="@drawable/id_card" />
 
     <EditText
-        android:id="@+id/phone_number"
+        android:id="@+id/EditTextPhone"
         android:inputType="textPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextAge"
         app:layout_constraintVertical_bias="0.058"
         android:imeOptions="actionDone"/>
 
@@ -89,11 +89,11 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/phone_number"
-        app:layout_constraintEnd_toEndOf="@+id/phone_number"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextPhone"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextPhone"
         app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toStartOf="@+id/phone_number"
-        app:layout_constraintTop_toTopOf="@+id/phone_number"
+        app:layout_constraintStart_toStartOf="@+id/EditTextPhone"
+        app:layout_constraintTop_toTopOf="@+id/EditTextPhone"
         app:layout_constraintVertical_bias="0.56"
         app:srcCompat="@drawable/phone_icon" />
 
@@ -105,7 +105,7 @@
         android:text="Заповніть всі поля реєстрації"
         android:textColor="#000000"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextAge"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/imageView"
@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.877" />
 
     <EditText
-        android:id="@+id/pass1"
+        android:id="@+id/EditTextPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_edit"
@@ -127,12 +127,12 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/phone_number"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextPhone"
         app:layout_constraintVertical_bias="0.069"
         android:imeOptions="actionDone"/>
 
     <EditText
-        android:id="@+id/pass2"
+        android:id="@+id/EditTextPassRep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_edit"
@@ -146,7 +146,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/pass1"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextPass"
         app:layout_constraintVertical_bias="0.093"
         />
 
@@ -161,18 +161,18 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/pass2"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextPassRep"
         app:layout_constraintVertical_bias="0.355" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/pass1"
-        app:layout_constraintEnd_toEndOf="@+id/pass1"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextPass"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextPass"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/pass1"
-        app:layout_constraintTop_toTopOf="@+id/pass1"
+        app:layout_constraintStart_toStartOf="@+id/EditTextPass"
+        app:layout_constraintTop_toTopOf="@+id/EditTextPass"
         app:layout_constraintVertical_bias="0.482"
         app:srcCompat="@drawable/passimg" />
 
@@ -180,11 +180,11 @@
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/pass2"
-        app:layout_constraintEnd_toEndOf="@+id/pass2"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextPassRep"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextPassRep"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/pass2"
-        app:layout_constraintTop_toTopOf="@+id/pass2"
+        app:layout_constraintStart_toStartOf="@+id/EditTextPassRep"
+        app:layout_constraintTop_toTopOf="@+id/EditTextPassRep"
         app:layout_constraintVertical_bias="0.551"
         app:srcCompat="@drawable/passimg" />
 

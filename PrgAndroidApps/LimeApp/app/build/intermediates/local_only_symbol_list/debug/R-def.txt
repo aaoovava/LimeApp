@@ -46,11 +46,14 @@ font archivo_bold
 font maven_pro_bold
 font sd
 id DocBut
+id EditTextAge
+id EditTextPass
+id EditTextPassRep
+id EditTextPhone
 id Name
 id abb
 id aiia
 id button_reg
-id editTextTextPersonName
 id editTextTextPersonName2
 id editTextTextPersonName3
 id firstDate
@@ -84,9 +87,6 @@ id imageView9
 id imagebous
 id lastDate
 id login_button
-id pass1
-id pass2
-id phone_number
 id prof_bot
 id some_id
 id textButLog

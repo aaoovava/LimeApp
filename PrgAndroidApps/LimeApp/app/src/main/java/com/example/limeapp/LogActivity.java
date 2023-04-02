@@ -24,7 +24,7 @@ public class LogActivity extends AppCompatActivity {
 
         TextView TxtButReg = (TextView) findViewById(R.id.textREg);
         Button ButtonLog = findViewById(R.id.login_button);
-        EditText phoneEdit = (EditText)findViewById(R.id.editTextTextPersonName);
+        EditText phoneEdit = (EditText)findViewById(R.id.EditTextAge);
         EditText pswEdit = (EditText)findViewById(R.id.editTextTextPersonName2);
         ButtonLog.setOnClickListener(new View.OnClickListener() {
             @Override

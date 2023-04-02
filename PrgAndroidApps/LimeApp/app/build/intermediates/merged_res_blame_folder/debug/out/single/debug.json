@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-27:\\drawable\\ellipse_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-25:\\drawable_cardconteiner.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-27:\\drawable\\cardconteiner.png"
-    },
-    {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-25:\\drawable_appiconmainscreen.xml.flat",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-27:\\drawable\\appiconmainscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-25:\\drawable_cardconteiner.png.flat",
+        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-27:\\drawable\\cardconteiner.png"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-25:\\drawable_mainpad.png.flat",
@@ -82,6 +82,10 @@
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.limeapp-merged_res-25:/layout_login_activity.xml.flat",
+        "source": "com.example.limeapp-main-27:/layout/login_activity.xml"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-25:\\drawable_ellipse_3.xml.flat",

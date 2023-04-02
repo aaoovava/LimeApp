@@ -57,14 +57,14 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:text="Введіть свій айді та пароль"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextAge"
         app:layout_constraintEnd_toEndOf="@+id/imagebous"
         app:layout_constraintStart_toStartOf="@+id/imagebous"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:layout_constraintVertical_bias="0.486" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/EditTextAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/text_edit"
@@ -86,11 +86,11 @@
         android:id="@+id/imageView6"
         android:layout_width="25dp"
         android:layout_height="29dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextAge"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextAge"
         app:layout_constraintHorizontal_bias="0.033"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/EditTextAge"
+        app:layout_constraintTop_toTopOf="@+id/EditTextAge"
         app:srcCompat="@drawable/phone_icon" />
 
     <EditText
