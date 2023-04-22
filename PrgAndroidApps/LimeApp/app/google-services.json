@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "976408751857",
+    "firebase_url": "https://lime-pdb-default-rtdb.firebaseio.com",
+    "project_id": "lime-pdb",
+    "storage_bucket": "lime-pdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976408751857:android:571cf0a6f4d4cbf2488350",
+        "android_client_info": {
+          "package_name": "com.example.limeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976408751857-fn3s7d5hkkfbc011ak5i5jdj4nbha7kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-N0BMhR-AJRHeqkfUMiVDEOuhPLbiKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976408751857-fn3s7d5hkkfbc011ak5i5jdj4nbha7kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

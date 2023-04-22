@@ -10,93 +10,223 @@
 9        android:targetSdkVersion="33" />
 9-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:5:5-34:19
-12        android:allowBackup="true"
-12-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Wasil\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:7:9-65
-15        android:debuggable="true"
-16        android:extractNativeLibs="false"
-17        android:fullBackupContent="@xml/backup_rules"
-17-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:8:9-54
-18        android:icon="@drawable/regicon"
-18-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:9:9-41
-19        android:label="Lime"
-19-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:10:9-29
-20        android:supportsRtl="true"
-20-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:11:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.LimeApp" >
-22-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:12:9-45
-23        <activity
-23-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:14:9-23:20
-24            android:name="com.example.limeapp.LogActivity"
-24-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:15:13-40
-25            android:exported="true"
-25-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:17:13-36
-26            android:screenOrientation="portrait" >
-26-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:16:13-49
-27            <intent-filter>
-27-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:21:17-77
-30-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:24:9-26:15
-34            android:name="com.example.limeapp.RegActivity"
-34-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:24:19-46
-35            android:screenOrientation="portrait" />
-35-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:25:13-49
-36        <activity
-36-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:9-28:51
-37            android:name="com.example.limeapp.MainScreenActivity"
-37-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:19-53
-38            android:screenOrientation="portrait" />
-38-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:28:13-49
-39        <activity
-39-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:9-30:51
-40            android:name="com.example.limeapp.ProfileActivity"
-40-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:19-50
-41            android:screenOrientation="portrait" />
-41-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:30:13-49
-42
-43        <meta-data
-43-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:31:9-33:57
-44            android:name="preloaded_fonts"
-44-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:32:13-43
-45            android:resource="@array/preloaded_fonts" />
-45-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:33:13-54
-46
-47        <provider
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-49            android:authorities="com.example.limeapp.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Wasil\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Wasil\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Wasil\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-57        </provider>
-58    </application>
-59
-60</manifest>
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:5:5-34:19
+17        android:allowBackup="true"
+17-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\Wasil\.gradle\caches\transforms-3\73588bf5f026e6ac96762c6ef6760063\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:7:9-65
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@drawable/regicon"
+23-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:9:9-41
+24        android:label="Lime"
+24-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:10:9-29
+25        android:supportsRtl="true"
+25-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.LimeApp" >
+27-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:12:9-45
+28        <activity
+28-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:14:9-23:20
+29            android:name="com.example.limeapp.LogActivity"
+29-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:15:13-40
+30            android:exported="true"
+30-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:17:13-36
+31            android:screenOrientation="portrait" >
+31-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:16:13-49
+32            <intent-filter>
+32-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:19:17-69
+33-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:21:17-77
+35-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:24:9-26:15
+39            android:name="com.example.limeapp.RegActivity"
+39-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:24:19-46
+40            android:screenOrientation="portrait" />
+40-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:25:13-49
+41        <activity
+41-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:9-28:51
+42            android:name="com.example.limeapp.MainScreenActivity"
+42-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:19-53
+43            android:screenOrientation="portrait" />
+43-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:28:13-49
+44        <activity
+44-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:9-30:51
+45            android:name="com.example.limeapp.ProfileActivity"
+45-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:19-50
+46            android:screenOrientation="portrait" />
+46-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:30:13-49
+47
+48        <meta-data
+48-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:31:9-33:57
+49            android:name="preloaded_fonts"
+49-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:32:13-43
+50            android:resource="@array/preloaded_fonts" />
+50-->C:\Users\Wasil\Documents\at\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:33:13-54
+51
+52        <service
+52-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:29:9-35:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:30:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:31:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+57                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+57-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Wasil\.gradle\caches\transforms-3\bea6cc9733ba07f1062a32069f29149a\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+60                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+60-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+62        </service>
+63
+64        <activity
+64-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+65            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+65-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+66            android:excludeFromRecents="true"
+66-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+67            android:exported="true"
+67-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+68            android:launchMode="singleTask"
+68-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+69-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+70            <intent-filter>
+70-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+71-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+73-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+74-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+75
+76                <data
+76-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+77                    android:host="firebase.auth"
+77-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+78                    android:path="/"
+78-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+79                    android:scheme="genericidp" />
+79-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+83            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+83-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+84            android:excludeFromRecents="true"
+84-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+85            android:exported="true"
+85-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+86            android:launchMode="singleTask"
+86-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+87-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+88            <intent-filter>
+88-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+89-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+91-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+92-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+93
+94                <data
+94-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:41:17-44:51
+95                    android:host="firebase.auth"
+95-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:42:21-49
+96                    android:path="/"
+96-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:43:21-37
+97                    android:scheme="recaptcha" />
+97-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\86b75db2e9470775fa689153f043ce58\transformed\firebase-auth-21.3.0\AndroidManifest.xml:44:21-48
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Wasil\.gradle\caches\transforms-3\a510e599d9eba9277ca6ff5fe87637d0\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Wasil\.gradle\caches\transforms-3\a510e599d9eba9277ca6ff5fe87637d0\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Wasil\.gradle\caches\transforms-3\a510e599d9eba9277ca6ff5fe87637d0\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Wasil\.gradle\caches\transforms-3\a510e599d9eba9277ca6ff5fe87637d0\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+107            android:authorities="com.example.limeapp.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+109            android:exported="false"
+109-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+110            android:initOrder="100" />
+110-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Wasil\.gradle\caches\transforms-3\818ce08cf267b61875ca6b92df6f1a70\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Wasil\.gradle\caches\transforms-3\e19c590c6602dde21fb158b5ddb278e5\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Wasil\.gradle\caches\transforms-3\e19c590c6602dde21fb158b5ddb278e5\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Wasil\.gradle\caches\transforms-3\e19c590c6602dde21fb158b5ddb278e5\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+118            android:authorities="com.example.limeapp.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\04f9a81c22d35d791a93ae29b343626c\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Wasil\.gradle\caches\transforms-3\a23e4b4414e45705ed074f3491df8453\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Wasil\.gradle\caches\transforms-3\a23e4b4414e45705ed074f3491df8453\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Wasil\.gradle\caches\transforms-3\a23e4b4414e45705ed074f3491df8453\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+126        </provider>
+127    </application>
+128
+129</manifest>
