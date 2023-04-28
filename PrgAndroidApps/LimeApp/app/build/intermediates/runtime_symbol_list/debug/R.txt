@@ -2523,6 +2523,7 @@ int drawable lime_svgrepo_com 0x7f08008f
 int drawable login_guy 0x7f080090
 int drawable logo 0x7f080091
 int drawable logolime1 0x7f080092
+int drawable logout_svgrepo_com 0x7f0800cb
 int drawable m3_appbar_background 0x7f080093
 int drawable m3_popupmenu_background_overlay 0x7f080094
 int drawable m3_radiobutton_ripple 0x7f080095
@@ -2874,6 +2875,7 @@ int id line3 0x7f0a011d
 int id linear 0x7f0a011e
 int id listMode 0x7f0a011f
 int id list_item 0x7f0a0120
+int id log_out 0x7f0a021e
 int id login_button 0x7f0a0121
 int id masked 0x7f0a0122
 int id match_constraint 0x7f0a0123
@@ -2970,6 +2972,8 @@ int id pin 0x7f0a017d
 int id position 0x7f0a017e
 int id postLayout 0x7f0a017f
 int id prof_bot 0x7f0a0180
+int id progressBar 0x7f0a021b
+int id progressBar2 0x7f0a021c
 int id progress_circular 0x7f0a0181
 int id progress_horizontal 0x7f0a0182
 int id radio 0x7f0a0183

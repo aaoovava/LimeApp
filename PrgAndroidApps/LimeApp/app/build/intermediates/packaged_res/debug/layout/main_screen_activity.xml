@@ -121,8 +121,7 @@
         android:layout_alignParentTop="true"
         android:fontFamily="cursive"
         android:gravity="top"
-        android:text="Дата
-початку дії:
+        android:text="Дата початку дії:
 20.03.23"
         android:textColor="@color/black"
         android:textSize="18dp"
@@ -142,8 +141,7 @@
         android:layout_alignParentTop="true"
         android:fontFamily="cursive"
         android:gravity="top"
-        android:text="Дата
-закінчення дії:
+        android:text="Дата закінчення дії:
 20.03.23"
         android:textColor="@color/black"
         android:textSize="18dp"
@@ -189,13 +187,13 @@
 
     <TextView
         android:id="@+id/Name"
-        android:layout_width="110dp"
-        android:layout_height="104dp"
+        android:layout_width="133dp"
+        android:layout_height="97dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="top"
         android:lineSpacingExtra="3sp"
-        android:text="Ячало Максим
+        android:text="
 "
         android:textAlignment="viewStart"
         android:textAllCaps="false"
@@ -207,7 +205,8 @@
         app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.892" />
+        app:layout_constraintVertical_bias="0.892"
+        tools:ignore="RtlCompat" />
 
     <ImageView
         android:id="@+id/imageView23"
@@ -220,5 +219,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044"
         app:srcCompat="@drawable/logolime1" />
+
+    <ImageView
+        android:id="@+id/log_out"
+        android:layout_width="61dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="8dp"
+        android:tint="#07132B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/logout_svgrepo_com" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

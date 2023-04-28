@@ -52,12 +52,20 @@
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\drawable_logout_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\drawable\\logout_svgrepo_com.xml"
+    },
+    {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\drawable_user_profile_4255_1.xml.flat",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\drawable\\user_profile_4255_1.xml"
+    },
+    {
+        "merged": "com.example.limeapp-merged_res-30:/layout_main_screen_activity.xml.flat",
+        "source": "com.example.limeapp-main-32:/layout/main_screen_activity.xml"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\drawable_dokon.xml.flat",
@@ -100,12 +108,12 @@
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\drawable\\vector.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\drawable_logolime1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\drawable\\logolime1.xml"
-    },
-    {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\layout_main_screen_activity.xml.flat",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\layout\\main_screen_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\drawable_logolime1.xml.flat",
+        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\drawable\\logolime1.xml"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\drawable_passimg.xml.flat",
@@ -194,10 +202,6 @@
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\font_sd.xml.flat",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-32:\\font\\sd.xml"
-    },
-    {
-        "merged": "com.example.limeapp-merged_res-30:/layout_reg_activity.xml.flat",
-        "source": "com.example.limeapp-main-32:/layout/reg_activity.xml"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",

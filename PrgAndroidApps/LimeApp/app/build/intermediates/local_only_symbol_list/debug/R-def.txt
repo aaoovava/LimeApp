@@ -28,6 +28,7 @@ drawable lime_svgrepo_com
 drawable login_guy
 drawable logo
 drawable logolime1
+drawable logout_svgrepo_com
 drawable mainpad
 drawable passimg
 drawable phone_icon
@@ -88,8 +89,11 @@ id imageView8
 id imageView9
 id imagebous
 id lastDate
+id log_out
 id login_button
 id prof_bot
+id progressBar
+id progressBar2
 id some_id
 id textButLog
 id textREg

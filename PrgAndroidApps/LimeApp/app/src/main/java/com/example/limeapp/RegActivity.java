@@ -5,12 +5,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -33,6 +36,7 @@ public class RegActivity extends AppCompatActivity {
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
         TextView TxtButLog = (TextView) findViewById(R.id.textButLog);
         Button RegButton = findViewById(R.id.button_reg);
+        ProgressBar progressBar = findViewById(R.id.progressBar2);
         TextView Name = findViewById(R.id.PIB);
         TextView Age = (TextView) findViewById(R.id.EditTextAge);
         TextView Phone = (TextView) findViewById(R.id.EditTextPhone);
@@ -56,10 +60,11 @@ public class RegActivity extends AppCompatActivity {
                     Toast toast = Toast.makeText(RegActivity.this,"Пролі не співпадають",Toast.LENGTH_LONG);
                     toast.show();
                 }else {
+                    progressBar.setVisibility(View.VISIBLE);
                     auth.createUserWithEmailAndPassword(Phone.getText().toString() + "@gmail.com",Pwd.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                         @Override
                         public void onSuccess(AuthResult authResult) {
-                            User user = new User(Name.getText().toString(),Phone.getText().toString(),Pwd.getText().toString(),Age.getText().toString());
+                            User user = new User(Name.getText().toString(),Phone.getText().toString(),Pwd.getText().toString(),Age.getText().toString(),"немає","немає");
                             users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void unused) {
@@ -67,7 +72,20 @@ public class RegActivity extends AppCompatActivity {
                                     toast.show();
                                     I();
                                 }
+                            }).addOnFailureListener(new OnFailureListener() {
+                                @Override
+                                public void onFailure(@NonNull Exception e) {
+                                    progressBar.setVisibility(View.INVISIBLE);
+                                    Toast toast = Toast.makeText(RegActivity.this,"Регістраційна помилка",Toast.LENGTH_LONG);
+                                }
                             });
+                        }
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            progressBar.setVisibility(View.INVISIBLE);
+                            Toast toast = Toast.makeText(RegActivity.this,"Регістраційна помилка",Toast.LENGTH_SHORT);
+                            toast.show();
                         }
                     });
                 }

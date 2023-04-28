@@ -2524,6 +2524,7 @@ drawable lime_svgrepo_com
 drawable login_guy
 drawable logo
 drawable logolime1
+drawable logout_svgrepo_com
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2875,6 +2876,7 @@ id line3
 id linear
 id listMode
 id list_item
+id log_out
 id login_button
 id masked
 id match_constraint
@@ -2971,6 +2973,8 @@ id pin
 id position
 id postLayout
 id prof_bot
+id progressBar
+id progressBar2
 id progress_circular
 id progress_horizontal
 id radio
