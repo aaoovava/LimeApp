@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-28:/values-v16/values-v16.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-33:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\73588bf5f026e6ac96762c6ef6760063\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/43a64de5a16f642f933aa2c844c81289/transformed/core-1.9.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\66afa5dfcd8ef628f1464fd4e0636ecf\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/wasiliylolita/.gradle/caches/transforms-3/4a8fc8d4cffe1deef03672f2112cd6a4/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

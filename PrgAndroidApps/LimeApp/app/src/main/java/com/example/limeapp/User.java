@@ -1,7 +1,7 @@
 package com.example.limeapp;
 
 public class User {
-    String name,number,password,age,start_date,end_date;
+    String name,number,password,age,Aboniment_start_date,Aboniment_end_date,Personal_t_name,Personal_t_start_date,Personal_t_end_date;
 
     public String getName() {
         return name;
@@ -13,22 +13,6 @@ public class User {
 
     public String getNumber() {
         return number;
-    }
-
-    public String getStart_date() {
-        return start_date;
-    }
-
-    public void setStart_date(String start_date) {
-        this.start_date = start_date;
-    }
-
-    public String getEnd_date() {
-        return end_date;
-    }
-
-    public void setEnd_date(String end_date) {
-        this.end_date = end_date;
     }
 
     public void setNumber(String number) {
@@ -51,12 +35,55 @@ public class User {
         this.age = age;
     }
 
-    public User(String name, String number, String password, String age, String start_date, String end_date) {
+    public String getAboniment_start_date() {
+        return Aboniment_start_date;
+    }
+
+    public void setAboniment_start_date(String aboniment_start_date) {
+        Aboniment_start_date = aboniment_start_date;
+    }
+
+    public String getAboniment_end_date() {
+        return Aboniment_end_date;
+    }
+
+    public void setAboniment_end_date(String aboniment_end_date) {
+        Aboniment_end_date = aboniment_end_date;
+    }
+
+    public String getPersonal_t_name() {
+        return Personal_t_name;
+    }
+
+    public void setPersonal_t_name(String personal_t_name) {
+        Personal_t_name = personal_t_name;
+    }
+
+    public String getPersonal_t_start_date() {
+        return Personal_t_start_date;
+    }
+
+    public void setPersonal_t_start_date(String personal_t_start_date) {
+        Personal_t_start_date = personal_t_start_date;
+    }
+
+    public String getPersonal_t_end_date() {
+        return Personal_t_end_date;
+    }
+
+    public void setPersonal_t_end_date(String personal_t_end_date) {
+        Personal_t_end_date = personal_t_end_date;
+    }
+
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String personal_t_name, String personal_t_start_date, String personal_t_end_date) {
         this.name = name;
         this.number = number;
         this.password = password;
         this.age = age;
-        this.start_date = start_date;
-        this.end_date = end_date;
+        Aboniment_start_date = aboniment_start_date;
+        Aboniment_end_date = aboniment_end_date;
+        Personal_t_name = personal_t_name;
+        Personal_t_start_date = personal_t_start_date;
+        Personal_t_end_date = personal_t_end_date;
     }
 }

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -18,10 +19,15 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
+import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
+
+import java.util.ArrayList;
 
 public class MainScreenActivity extends AppCompatActivity {
     FirebaseDatabase db;
     private String name;
+    ArrayList<ViePagerItem>viePagerItemArrayList;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,11 +35,10 @@ public class MainScreenActivity extends AppCompatActivity {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
 
-        TextView start_date = findViewById(R.id.firstDate);
-        TextView end_date = findViewById(R.id.lastDate);
-        TextView name = findViewById(R.id.Name);
         ImageView profBut = (ImageView) findViewById(R.id.prof_bot);
         ImageView log_out = findViewById(R.id.log_out);
+        ViewPager2 viewPager2 = findViewById(R.id.viewPager);
+        SpringDotsIndicator dotsIndicator = findViewById(R.id.Adapter);
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
@@ -57,12 +62,30 @@ public class MainScreenActivity extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     String usName = snapshot.child("name").getValue().toString();
-                    String firstDate = snapshot.child("start_date").getValue().toString();
-                    String LastDate = snapshot.child("end_date").getValue().toString();
-                    start_date.setText("Дата початку дії: " + firstDate);
-                    end_date.setText("Дата закінчення дії: " + LastDate );
+                    String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
+                    String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
+                    String PName = snapshot.child("personal_t_name").getValue().toString();
+                    String PfirstDate = snapshot.child("personal_t_start_date").getValue().toString();
+                    String PLastDate = snapshot.child("personal_t_end_date").getValue().toString();
 
-                    name.setText(usName);
+                    viePagerItemArrayList = new ArrayList<>();
+                    ViePagerItem AviePagerItem = new ViePagerItem(usName,"Абонимент","Дата початку дії: " +AfirstDate,"Дата закінчення дії: " + ALastDate);
+                    viePagerItemArrayList.add(AviePagerItem);
+                    ViePagerItem PviePagerItem = new ViePagerItem(usName,PName,"Кількість занять: " +PfirstDate, "Використана кількість: " +PLastDate);
+                    viePagerItemArrayList.add(PviePagerItem);
+
+                    VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList);
+
+
+                    viewPager2.setAdapter(vp_adapter);
+                    viewPager2.setClipToPadding(false);
+                    viewPager2.setClipChildren(false);
+                    viewPager2.setOffscreenPageLimit(2);
+                    viewPager2.getChildAt(0).setOverScrollMode(View.OVER_SCROLL_NEVER);
+                    dotsIndicator.attachTo(viewPager2);
+
+
+
                 }
 
                 @Override

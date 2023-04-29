@@ -64,7 +64,7 @@ public class RegActivity extends AppCompatActivity {
                     auth.createUserWithEmailAndPassword(Phone.getText().toString() + "@gmail.com",Pwd.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                         @Override
                         public void onSuccess(AuthResult authResult) {
-                            User user = new User(Name.getText().toString(),Phone.getText().toString(),Pwd.getText().toString(),Age.getText().toString(),"немає","немає");
+                            User user = new User(Name.getText().toString(),Phone.getText().toString(),Pwd.getText().toString(),Age.getText().toString(),"немає","немає","немає","немає","немає");
                             users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void unused) {

@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:text="Введіть свій айді та пароль"
+        android:text="Введіть свій ниер та пароль"
         app:layout_constraintBottom_toTopOf="@+id/EditTextAge"
         app:layout_constraintEnd_toEndOf="@+id/imagebous"
         app:layout_constraintStart_toStartOf="@+id/imagebous"

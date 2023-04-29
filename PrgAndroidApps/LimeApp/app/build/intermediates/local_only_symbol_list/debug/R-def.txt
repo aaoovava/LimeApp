@@ -46,6 +46,7 @@ font amiko_bold
 font archivo_bold
 font maven_pro_bold
 font sd
+id Adapter
 id DocBut
 id EditTextAge
 id EditTextPass
@@ -63,9 +64,6 @@ id icon
 id imageButton
 id imageView
 id imageView10
-id imageView11
-id imageView12
-id imageView13
 id imageView14
 id imageView15
 id imageView16
@@ -102,10 +100,12 @@ id textView2
 id textView3
 id textView5
 id textView6
+id viewPager
 layout login_activity
 layout main_screen_activity
 layout profile_activity
 layout reg_activity
+layout viewpager_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
