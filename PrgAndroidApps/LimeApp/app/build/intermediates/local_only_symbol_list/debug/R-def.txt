@@ -66,7 +66,7 @@ id PIB
 id abb
 id aiia
 id button_reg
-id editTextTextPersonName
+id editName
 id editTextTextPersonName2
 id firstDate
 id icon
@@ -101,11 +101,11 @@ id imageView8
 id imageView9
 id imagebous
 id lastDate
-id log_out
 id login_button
 id prof_bot
 id progressBar
 id progressBar2
+id progressBar4
 id some_id
 id textButLog
 id textREg

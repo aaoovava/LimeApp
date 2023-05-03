@@ -13,10 +13,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cardconteiner" />
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/abb"
-        android:layout_width="170dp"
-        android:layout_height="50dp"
+        android:layout_width="191dp"
+        android:layout_height="47dp"
         android:layout_alignParentLeft="true"
 
         android:layout_alignParentTop="true"

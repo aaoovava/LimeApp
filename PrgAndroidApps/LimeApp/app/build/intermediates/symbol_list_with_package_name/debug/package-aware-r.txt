@@ -3101,7 +3101,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName
+id editName
 id editTextTextPersonName2
 id edit_query
 id elastic
@@ -3204,7 +3204,6 @@ id line3
 id linear
 id listMode
 id list_item
-id log_out
 id login_button
 id m3_side_sheet
 id marquee
@@ -3308,6 +3307,7 @@ id pressed
 id prof_bot
 id progressBar
 id progressBar2
+id progressBar4
 id progress_circular
 id progress_horizontal
 id radio

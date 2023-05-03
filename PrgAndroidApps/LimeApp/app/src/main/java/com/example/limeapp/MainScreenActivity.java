@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -36,9 +37,9 @@ public class MainScreenActivity extends AppCompatActivity {
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
 
         ImageView profBut = (ImageView) findViewById(R.id.prof_bot);
-        ImageView log_out = findViewById(R.id.log_out);
         ViewPager2 viewPager2 = findViewById(R.id.viewPager);
         SpringDotsIndicator dotsIndicator = findViewById(R.id.Adapter);
+        ProgressBar progressBar4 = findViewById(R.id.progressBar4);
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
@@ -51,18 +52,12 @@ public class MainScreenActivity extends AppCompatActivity {
             toLogin();
         }
         else {
-            log_out.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    auth.signOut();
-                    toLogin();
-                }
-            });
+            progressBar4.setVisibility(View.VISIBLE);
             users.child(userId).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     String usName = snapshot.child("name").getValue().toString();
-                    String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
+                    String AfirstDate = snapshot.child("abonmient_start_date").getValue().toString();
                     String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                     String PName = snapshot.child("personal_t_name").getValue().toString();
                     String PfirstDate = snapshot.child("personal_t_start_date").getValue().toString();
@@ -83,16 +78,21 @@ public class MainScreenActivity extends AppCompatActivity {
                     viewPager2.setOffscreenPageLimit(2);
                     viewPager2.getChildAt(0).setOverScrollMode(View.OVER_SCROLL_NEVER);
                     dotsIndicator.attachTo(viewPager2);
+                    progressBar4.setVisibility(View.INVISIBLE);
+                    dotsIndicator.setVisibility(View.VISIBLE);
+
 
 
 
                 }
+
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
 
                 }
             });
+
         profBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

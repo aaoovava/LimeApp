@@ -29,7 +29,6 @@
         android:icon="@drawable/regicon"
         android:label="Lime"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.LimeApp" >
         <activity
             android:name="com.example.limeapp.LogActivity"
