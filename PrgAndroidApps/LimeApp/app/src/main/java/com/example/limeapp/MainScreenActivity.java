@@ -57,7 +57,7 @@ public class MainScreenActivity extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     String usName = snapshot.child("name").getValue().toString();
-                    String AfirstDate = snapshot.child("abonmient_start_date").getValue().toString();
+                    String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
                     String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                     String PName = snapshot.child("personal_t_name").getValue().toString();
                     String PfirstDate = snapshot.child("personal_t_start_date").getValue().toString();

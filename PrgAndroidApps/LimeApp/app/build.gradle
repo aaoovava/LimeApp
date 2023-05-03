@@ -46,5 +46,7 @@ dependencies {
 
 
 dependencies {
+
+    testImplementation 'org.testng:testng:6.9.6'
     implementation("com.tbuonomo:dotsindicator:4.3")
 }
