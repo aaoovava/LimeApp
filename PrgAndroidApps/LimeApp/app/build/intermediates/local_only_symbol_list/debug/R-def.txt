@@ -25,6 +25,7 @@ drawable ellipse_1
 drawable ellipse_3
 drawable fon_sh
 drawable group
+drawable group_8
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable id_card
@@ -38,6 +39,7 @@ drawable mainpad
 drawable passimg
 drawable phone_icon
 drawable plus_svgrepo_com_1
+drawable profile_img
 drawable profileonid
 drawable profof
 drawable rectangle_1
@@ -73,7 +75,6 @@ id icon
 id imageView
 id imageView10
 id imageView11
-id imageView13
 id imageView14
 id imageView15
 id imageView16
@@ -103,9 +104,11 @@ id imagebous
 id lastDate
 id login_button
 id prof_bot
+id profile_image
 id progressBar
 id progressBar2
 id progressBar4
+id saved_button
 id some_id
 id textButLog
 id textREg

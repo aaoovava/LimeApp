@@ -100,17 +100,19 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rectangle_11" />
 
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="115dp"
+        android:layout_height="114dp"
+        android:src="@drawable/user_profile_4255_1"
+        app:civ_border_color="#4CAF50"
+        app:civ_border_width="2dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.058"
-        app:srcCompat="@drawable/user_profile_4255_1" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -130,7 +132,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11"
         app:layout_constraintVertical_bias="0.916"
@@ -146,7 +148,8 @@
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11"
         app:layout_constraintVertical_bias="0.902"
-        app:srcCompat="@drawable/group" />
+        app:srcCompat="@drawable/group"
+        app:tint="#FFFFFF" />
 
     <TextView
         android:id="@+id/textView4"
@@ -159,27 +162,26 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.916" />
 
     <EditText
         android:id="@+id/editName"
         android:layout_width="181dp"
         android:layout_height="46dp"
         android:ems="10"
+        android:gravity="center"
         android:inputType="textPersonName"
         android:text="Name"
-        android:gravity="center"
 
 
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.416" />
 
     <ImageView
         android:id="@+id/imageView37"
@@ -219,6 +221,19 @@
         app:layout_constraintStart_toStartOf="@+id/imageView37"
         app:layout_constraintTop_toTopOf="@+id/imageView37"
         app:layout_constraintVertical_bias="0.454"
-        app:srcCompat="@drawable/warning_triangular_sketched_sign_svgrepo_com_1" />
+        app:srcCompat="@drawable/warning_triangular_sketched_sign_svgrepo_com_1"
+        app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/saved_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.572"
+        app:srcCompat="@drawable/group_8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

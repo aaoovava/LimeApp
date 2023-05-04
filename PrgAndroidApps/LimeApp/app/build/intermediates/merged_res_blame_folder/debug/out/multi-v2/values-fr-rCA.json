@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-33:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d202b99fdcb0faf422c374addae72b3c\\transformed\\browser-1.4.0\\res\\values-fr-rCA\\values-fr-rCA.xml",

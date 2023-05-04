@@ -9,7 +9,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
     ArrayList<ViePagerItem> viePagerItemsArrayList;
@@ -29,7 +33,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         ViePagerItem pagerItem = viePagerItemsArrayList.get(position);
-
+        Picasso.get().load(pagerItem.Pimg).into(holder.circleImageView);
         holder.Title_txt.setText(pagerItem.AorB_name);
         holder.Start_date.setText(pagerItem.start_date);
         holder.End_date.setText(pagerItem.end_date);
@@ -43,7 +47,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        ImageView profImg;
+        CircleImageView circleImageView;
         TextView Title_txt;
         TextView Start_date;
         TextView End_date;
@@ -51,7 +55,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            profImg = itemView.findViewById(R.id.imageView20);
+            circleImageView = itemView.findViewById(R.id.imageView20);
             Title_txt = itemView.findViewById(R.id.abb);
             Start_date = itemView.findViewById(R.id.firstDate);
             End_date = itemView.findViewById(R.id.lastDate);

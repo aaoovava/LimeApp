@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
 
@@ -64,10 +65,12 @@ public class MainScreenActivity extends AppCompatActivity {
                     String PLastDate = snapshot.child("personal_t_end_date").getValue().toString();
 
                     viePagerItemArrayList = new ArrayList<>();
-                    ViePagerItem AviePagerItem = new ViePagerItem(usName,"Абонимент","Дата початку дії: " +AfirstDate,"Дата закінчення дії: " + ALastDate);
+                    String image = snapshot.child("image").getValue().toString();
+                    ViePagerItem AviePagerItem = new ViePagerItem(usName,"Абонемент","Дата початку дії: " +AfirstDate,"Дата закінчення дії: " + ALastDate,image);
                     viePagerItemArrayList.add(AviePagerItem);
-                    ViePagerItem PviePagerItem = new ViePagerItem(usName,PName,"Кількість занять: " +PfirstDate, "Використана кількість: " +PLastDate);
+                    ViePagerItem PviePagerItem = new ViePagerItem(usName,PName,"Кількість занять: " +PfirstDate, "Використана кількість: " +PLastDate,image);
                     viePagerItemArrayList.add(PviePagerItem);
+
 
                     VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList);
 

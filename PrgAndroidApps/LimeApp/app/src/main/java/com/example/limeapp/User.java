@@ -1,7 +1,7 @@
 package com.example.limeapp;
 
 public class User {
-    String name,number,password,age,Aboniment_start_date,Aboniment_end_date,Personal_t_name,Personal_t_start_date,Personal_t_end_date;
+    String name,number,password,age,Aboniment_start_date,Aboniment_end_date,Personal_t_name,Personal_t_start_date,Personal_t_end_date,image;
 
     public String getName() {
         return name;
@@ -75,7 +75,15 @@ public class User {
         Personal_t_end_date = personal_t_end_date;
     }
 
-    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String personal_t_name, String personal_t_start_date, String personal_t_end_date) {
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String personal_t_name, String personal_t_start_date, String personal_t_end_date, String image) {
         this.name = name;
         this.number = number;
         this.password = password;
@@ -85,5 +93,6 @@ public class User {
         Personal_t_name = personal_t_name;
         Personal_t_start_date = personal_t_start_date;
         Personal_t_end_date = personal_t_end_date;
+        this.image = image;
     }
 }
