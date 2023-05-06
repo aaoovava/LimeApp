@@ -21,20 +21,21 @@
         app:srcCompat="@drawable/mainpad" />
 
     <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/priseButProf"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/imageView16"
         app:layout_constraintTop_toTopOf="@+id/imageView16"
-        app:layout_constraintVertical_bias="0.34"
-        app:srcCompat="@drawable/auntofa" />
+        app:layout_constraintVertical_bias="0.30"
+        app:srcCompat="@drawable/group_10" />
 
     <ImageView
-        android:id="@+id/DocBut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/DocButPrise"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView16"
         app:layout_constraintHorizontal_bias="0.17"
@@ -44,7 +45,7 @@
         app:srcCompat="@drawable/doko" />
 
     <ImageView
-        android:id="@+id/aiia"
+        android:id="@+id/ProfButPrise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView16"

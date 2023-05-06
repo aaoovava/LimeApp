@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -59,7 +58,8 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.profile_activity);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
-        ImageView DocBut = findViewById(R.id.DocBut);
+        ImageView DocBut = findViewById(R.id.DocButPrise);
+        ImageView PriseBut = findViewById(R.id.priseButProf);
         EditText nameEdit = findViewById(R.id.editName);
         ImageView LogOut = findViewById(R.id.imageView36);
         ImageView SavedButton = findViewById(R.id.saved_button);
@@ -84,6 +84,7 @@ public class ProfileActivity extends AppCompatActivity {
                 CropImage.activity().setAspectRatio(1,1).start(ProfileActivity.this);
             }
         });
+
 
 
         users.child(userId).addValueEventListener(new ValueEventListener() {
@@ -113,6 +114,12 @@ public class ProfileActivity extends AppCompatActivity {
                 toLogin();
             }
         });
+        PriseBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toPrise();
+            }
+        });
         DocBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -127,6 +134,10 @@ public class ProfileActivity extends AppCompatActivity {
     }
     void toLogin(){
         Intent intent = new Intent(this, LogActivity.class);
+        startActivity(intent);
+    }
+    void toPrise(){
+        Intent intent = new Intent(this, PriseScreen.class);
         startActivity(intent);
     }
     void uploadProfileImage(){

@@ -41,6 +41,7 @@ public class MainScreenActivity extends AppCompatActivity {
         ViewPager2 viewPager2 = findViewById(R.id.viewPager);
         SpringDotsIndicator dotsIndicator = findViewById(R.id.Adapter);
         ProgressBar progressBar4 = findViewById(R.id.progressBar4);
+        ImageView priseBut = findViewById(R.id.priseBut);
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
@@ -102,10 +103,21 @@ public class MainScreenActivity extends AppCompatActivity {
                 toProfile();
             }
         });
+        priseBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toPrise();
+            }
+        });
+
 
 
         }
 
+    }
+    void toPrise(){
+        Intent intent = new Intent(this, PriseScreen.class);
+        startActivity(intent);
     }
     void toProfile(){
         Intent intent = new Intent(this, ProfileActivity.class);

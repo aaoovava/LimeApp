@@ -18,6 +18,7 @@ drawable buton_prof
 drawable butons_st
 drawable cardconteiner
 drawable cardconteinerp
+drawable cardconteinerprise
 drawable cardconteinerprof
 drawable doko
 drawable dokon
@@ -25,7 +26,9 @@ drawable ellipse_1
 drawable ellipse_3
 drawable fon_sh
 drawable group
+drawable group_10
 drawable group_8
+drawable group_9
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable id_card
@@ -39,6 +42,7 @@ drawable mainpad
 drawable passimg
 drawable phone_icon
 drawable plus_svgrepo_com_1
+drawable prise
 drawable profile_img
 drawable profileonid
 drawable profof
@@ -58,15 +62,15 @@ font archivo_bold
 font maven_pro_bold
 font sd
 id Adapter
-id DocBut
+id DocButPrise
 id EditTextAge
 id EditTextPass
 id EditTextPassRep
 id EditTextPhone
 id Name
 id PIB
+id ProfButPrise
 id abb
-id aiia
 id button_reg
 id editName
 id editTextTextPersonName2
@@ -79,11 +83,10 @@ id imageView14
 id imageView15
 id imageView16
 id imageView17
-id imageView18
 id imageView19
 id imageView2
 id imageView20
-id imageView22
+id imageView21
 id imageView23
 id imageView24
 id imageView28
@@ -103,6 +106,8 @@ id imageView9
 id imagebous
 id lastDate
 id login_button
+id priseBut
+id priseButProf
 id prof_bot
 id profile_image
 id progressBar
@@ -122,6 +127,7 @@ id textView8
 id viewPager
 layout login_activity
 layout main_screen_activity
+layout price_activity
 layout profile_activity
 layout reg_activity
 layout viewpager_item
