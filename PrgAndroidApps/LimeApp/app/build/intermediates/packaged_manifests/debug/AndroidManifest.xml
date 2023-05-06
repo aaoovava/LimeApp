@@ -36,7 +36,8 @@
         android:theme="@style/Theme.LimeApp" >
         <activity
             android:name="com.example.limeapp.PriseScreen"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.limeapp.LogActivity"
             android:exported="true"
