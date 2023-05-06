@@ -105,46 +105,96 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
+
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmst1"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pms________________________" />
+
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pamsp1"
                 android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmsp1" />
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmst2"
                 android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmst2" />
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmsp2"
                 android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmsp2" />
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmst3"
                 android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmst3" />
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmsp3"
                 android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmsp3" />
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmst4"
                 android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmst4" />
             <ImageView
-                android:id="@+id/imageView25"
+                android:id="@+id/pmsp4"
                 android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rectangle_13" />
+                app:srcCompat="@drawable/pmsp4" />
+            <ImageView
+                android:id="@+id/pmst5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pmst5" />
+            <ImageView
+                android:id="@+id/pmsp5"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pmsp5"
+                />
+            <ImageView
+                android:id="@+id/pmst6"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pmst6" />
+            <ImageView
+                android:id="@+id/pmsp6"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pmsp6"/>
+            <ImageView
+                android:id="@+id/pmst7"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pmst7" />
+            <ImageView
+                android:id="@+id/pmsp7"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pmsp7"
+                android:paddingTop="-10dp"
+                />
+
         </LinearLayout>
     </ScrollView>
 

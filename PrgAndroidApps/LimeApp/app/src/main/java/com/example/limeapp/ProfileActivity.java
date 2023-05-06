@@ -81,7 +81,19 @@ public class ProfileActivity extends AppCompatActivity {
         addImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                CropImage.activity().setAspectRatio(1,1).start(ProfileActivity.this);
+                try {
+
+
+                    CropImage.activity().setAspectRatio(1, 1).start(ProfileActivity.this);
+                    uploadProfileImage();
+                    HashMap<String, Object> j = new HashMap<>();
+                    j.put("name", nameEdit.getText().toString());
+                    users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+
+
             }
         });
 
@@ -122,7 +134,12 @@ public class ProfileActivity extends AppCompatActivity {
         });
         DocBut.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View v) {
+                uploadProfileImage();
+                HashMap<String,Object> j  = new HashMap<>();
+                j.put("name",nameEdit.getText().toString());
+                users.child(auth.getCurrentUser().getUid()).updateChildren(j);
                 toMainScreen();
             }
         });
