@@ -48,6 +48,7 @@ drawable profileonid
 drawable profof
 drawable rectangle_1
 drawable rectangle_11
+drawable rectangle_13
 drawable rectangle_7
 drawable rectangle_7oki
 drawable regicon
@@ -89,6 +90,7 @@ id imageView20
 id imageView21
 id imageView23
 id imageView24
+id imageView25
 id imageView28
 id imageView3
 id imageView32

@@ -3139,6 +3139,7 @@ int drawable profileonid 0x7f080110
 int drawable profof 0x7f080111
 int drawable rectangle_1 0x7f080112
 int drawable rectangle_11 0x7f080113
+int drawable rectangle_13 0x7f080126
 int drawable rectangle_7 0x7f080114
 int drawable rectangle_7oki 0x7f080115
 int drawable regicon 0x7f080116
@@ -3424,6 +3425,7 @@ int id imageView20 0x7f0a0106
 int id imageView21 0x7f0a0246
 int id imageView23 0x7f0a0108
 int id imageView24 0x7f0a0109
+int id imageView25 0x7f0a024c
 int id imageView28 0x7f0a010a
 int id imageView3 0x7f0a010b
 int id imageView32 0x7f0a010c

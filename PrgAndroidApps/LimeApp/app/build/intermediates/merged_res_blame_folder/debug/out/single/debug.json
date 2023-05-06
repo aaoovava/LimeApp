@@ -48,12 +48,12 @@
         "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/dokon.xml"
     },
     {
-        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/drawable_intersect.xml.flat",
-        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/intersect.xml"
-    },
-    {
         "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/drawable_phone_icon.xml.flat",
         "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/phone_icon.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/drawable_intersect.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/intersect.xml"
     },
     {
         "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/layout_main_screen_activity.xml.flat",
@@ -152,10 +152,6 @@
         "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/rectangle_1.xml"
     },
     {
-        "merged": "com.example.limeapp-merged_res-37:/layout_profile_activity.xml.flat",
-        "source": "com.example.limeapp-main-39:/layout/profile_activity.xml"
-    },
-    {
         "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
     },
@@ -246,6 +242,10 @@
     {
         "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/drawable_plus_svgrepo_com_1.xml.flat",
         "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/plus_svgrepo_com_1.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/drawable_rectangle_13.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-39:/drawable/rectangle_13.xml"
     },
     {
         "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
