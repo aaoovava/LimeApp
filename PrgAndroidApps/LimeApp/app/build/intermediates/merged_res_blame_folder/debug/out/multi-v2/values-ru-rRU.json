@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-ru-rRU/values-ru-rRU.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8ecb1e8bcda1ed3a9f692ce25074d8de\\transformed\\android-image-cropper-2.8.0\\res\\values-ru-rRU\\values-ru-rRU.xml",

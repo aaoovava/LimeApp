@@ -18,13 +18,14 @@ public class PriseScreen extends AppCompatActivity {
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
         ImageView profBut = findViewById(R.id.ProfButPrise);
         ImageView mainBut = findViewById(R.id.DocButPrise);
-
+        ImageView PMSp1 = findViewById(R.id.pmsp1);
         profBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 toProfile();
             }
         });
+
         mainBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,6 +34,7 @@ public class PriseScreen extends AppCompatActivity {
         });
 
     }
+
     void toMain(){
         Intent intent = new Intent(this, MainScreenActivity.class);
         startActivity(intent);

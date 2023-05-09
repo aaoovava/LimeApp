@@ -72,9 +72,9 @@
         android:drawablePadding="40dp"
         android:ems="10"
         android:textColorHint="@color/white"
-        android:hint="+380960504238"
+        android:hint="096050****"
 
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:text=""
         app:layout_constraintBottom_toBottomOf="@+id/imagebous"
         app:layout_constraintEnd_toEndOf="@+id/imagebous"

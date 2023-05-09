@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-as/values-as.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-as/values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\4a8fc8d4cffe1deef03672f2112cd6a4\\transformed\\appcompat-1.6.1\\res\\values-as\\values-as.xml",

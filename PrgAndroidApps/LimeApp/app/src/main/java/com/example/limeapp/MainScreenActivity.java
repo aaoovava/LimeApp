@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -58,22 +59,33 @@ public class MainScreenActivity extends AppCompatActivity {
             users.child(userId).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    String Uname,Sname;
                     String usName = snapshot.child("name").getValue().toString();
                     String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
                     String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                     String PName = snapshot.child("personal_t_name").getValue().toString();
                     String PfirstDate = snapshot.child("personal_t_start_date").getValue().toString();
                     String PLastDate = snapshot.child("personal_t_end_date").getValue().toString();
+                    try {
+                        String[] words = Spase(usName);
+                        Uname = words[0];
+                        Sname = words[1];
+                    }catch (Exception e){
+                        Uname = usName;
+                        Sname = "";
+                    }
 
                     viePagerItemArrayList = new ArrayList<>();
                     String image = snapshot.child("image").getValue().toString();
-                    ViePagerItem AviePagerItem = new ViePagerItem(usName,"Абонемент","Дата початку дії: " +AfirstDate,"Дата закінчення дії: " + ALastDate,image);
+                    ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент","Дата початку дії: ","Дата закінчення дії: ",AfirstDate,ALastDate,image);
                     viePagerItemArrayList.add(AviePagerItem);
-                    ViePagerItem PviePagerItem = new ViePagerItem(usName,PName,"Кількість занять: " +PfirstDate, "Використана кількість: " +PLastDate,image);
+                    ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname,"Групові заняття","Кількість занять: ", "Використана кількість: ",PfirstDate,PLastDate,image);
+
                     viePagerItemArrayList.add(PviePagerItem);
 
 
                     VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList);
+
 
 
                     viewPager2.setAdapter(vp_adapter);
@@ -114,6 +126,12 @@ public class MainScreenActivity extends AppCompatActivity {
 
         }
 
+    }
+    public String[] Spase(String txt){
+
+        String[] words = String.format(txt).split(" ");
+
+        return words;
     }
     void toPrise(){
         Intent intent = new Intent(this, PriseScreen.class);

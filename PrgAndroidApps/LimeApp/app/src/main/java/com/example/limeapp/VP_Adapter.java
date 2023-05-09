@@ -1,9 +1,9 @@
 package com.example.limeapp;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -37,7 +37,12 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
         holder.Title_txt.setText(pagerItem.AorB_name);
         holder.Start_date.setText(pagerItem.start_date);
         holder.End_date.setText(pagerItem.end_date);
-        holder.profName.setText(pagerItem.Uname);
+        holder.UName.setText(pagerItem.Uname);
+        holder.SName.setText(pagerItem.Sname);
+        holder.StartDate.setText(pagerItem.StartDate);
+        holder.EndDate.setText(pagerItem.EndDate);
+
+
 
     }
 
@@ -51,7 +56,13 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
         TextView Title_txt;
         TextView Start_date;
         TextView End_date;
-        TextView profName;
+        TextView UName;
+        TextView SName;
+
+        TextView StartDate;
+
+        TextView EndDate;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -59,7 +70,11 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder>{
             Title_txt = itemView.findViewById(R.id.abb);
             Start_date = itemView.findViewById(R.id.firstDate);
             End_date = itemView.findViewById(R.id.lastDate);
-            profName = itemView.findViewById(R.id.Name);
+            UName = itemView.findViewById(R.id.UName);
+            SName = itemView.findViewById(R.id.Sname);
+            StartDate = itemView.findViewById(R.id.SatrtDate);
+            EndDate = itemView.findViewById(R.id.EndDate);
+
         }
     }
 }

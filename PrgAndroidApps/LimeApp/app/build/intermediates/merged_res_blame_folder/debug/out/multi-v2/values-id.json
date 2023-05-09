@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-id/values-id.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-id/values-id.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8ecb1e8bcda1ed3a9f692ce25074d8de\\transformed\\android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
@@ -11,6 +11,23 @@
                         "startOffsets": "55,170,226,281,367,449,537,600",
                         "endColumns": "114,55,54,85,81,87,62,72",
                         "endOffsets": "165,221,276,362,444,532,595,668"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "673",
+                        "endColumns": "77",
+                        "endOffsets": "746"
                     }
                 }
             ]

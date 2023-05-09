@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d202b99fdcb0faf422c374addae72b3c\\transformed\\browser-1.4.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
@@ -71,6 +71,23 @@
                         "startOffsets": "3885,3991,4171,4301,4410,4581,4714,4835,5109,5304,5416,5601,5737,5897,6076,6149,6213",
                         "endColumns": "105,179,129,108,170,132,120,112,194,111,184,135,159,178,72,63,83",
                         "endOffsets": "3986,4166,4296,4405,4576,4709,4830,4943,5299,5411,5596,5732,5892,6071,6144,6208,6292"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "74",
+                        "endOffsets": "280"
+                    },
+                    "to": {
+                        "startLines": "119",
+                        "startColumns": "4",
+                        "startOffsets": "11238",
+                        "endColumns": "78",
+                        "endOffsets": "11312"
                     }
                 },
                 {

@@ -1,6 +1,5 @@
 package com.example.limeapp;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -19,9 +18,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class RegActivity extends AppCompatActivity {
     FirebaseAuth auth;
@@ -77,6 +73,7 @@ public class RegActivity extends AppCompatActivity {
                                 public void onFailure(@NonNull Exception e) {
                                     progressBar.setVisibility(View.INVISIBLE);
                                     Toast toast = Toast.makeText(RegActivity.this,"Регістраційна помилка",Toast.LENGTH_LONG);
+                                    toast.show();
                                 }
                             });
                         }
@@ -88,7 +85,9 @@ public class RegActivity extends AppCompatActivity {
                             toast.show();
                         }
                     });
+
                 }
+
             }
         });
         TxtButLog.setOnClickListener(new View.OnClickListener() {
@@ -96,10 +95,13 @@ public class RegActivity extends AppCompatActivity {
             public void onClick(View v) {
                 I();
             }
+
         });
     }
     void I(){
         Intent intent = new Intent(this, LogActivity.class);
         startActivity(intent);
     }
+
+
 }

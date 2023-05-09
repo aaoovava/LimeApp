@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-sv/values-sv.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d488f2c4c46007d73eddcd94b832f4ea\\transformed\\material-1.9.0\\res\\values-sv\\values-sv.xml",
@@ -37,6 +37,23 @@
                         "startOffsets": "6048,6159,6206,6262,6316,6396,6471,6542,11045",
                         "endColumns": "110,46,55,53,79,74,70,69,69",
                         "endOffsets": "6154,6201,6257,6311,6391,6466,6537,6607,11110"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-sv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "69",
+                        "endOffsets": "271"
+                    },
+                    "to": {
+                        "startLines": "128",
+                        "startColumns": "4",
+                        "startOffsets": "11296",
+                        "endColumns": "73",
+                        "endOffsets": "11365"
                     }
                 },
                 {

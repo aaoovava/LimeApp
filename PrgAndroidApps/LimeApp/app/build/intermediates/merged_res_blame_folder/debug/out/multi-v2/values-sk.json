@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-sk/values-sk.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\4a7f83fd254fa05cc8acd7d644c57a96\\transformed\\play-services-base-18.1.0\\res\\values-sk\\values.xml",
@@ -37,6 +37,23 @@
                         "endLines": "7,35,36,37,38,39,40,41,42,62,63,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118",
                         "endColumns": "12,74,74,77,91,82,91,127,80,64,98,75,64,89,63,65,53,68,59,53,116,59,61,53,71,129,86,91,138,68,77,87,53,50,65,71,76,82,71,76,72,70,87,71,91,95,73,73,95,51,66,86,86,61,63,62,105,95,97,97,57,54,78",
                         "endOffsets": "423,3210,3285,3363,3455,3538,3630,3758,3839,6278,6377,6773,6838,6928,6992,7058,7112,7181,7241,7295,7412,7472,7534,7588,7660,7790,7877,7969,8108,8177,8255,8343,8397,8448,8514,8586,8663,8746,8818,8895,8968,9039,9127,9199,9291,9387,9461,9535,9631,9683,9750,9837,9924,9986,10050,10113,10219,10315,10413,10511,10569,10624,10703"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "121",
+                        "startColumns": "4",
+                        "startOffsets": "10892",
+                        "endColumns": "75",
+                        "endOffsets": "10963"
                     }
                 },
                 {

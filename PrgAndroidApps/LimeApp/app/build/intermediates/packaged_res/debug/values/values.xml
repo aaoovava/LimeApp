@@ -30,7 +30,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#B8B2B2</color>
+    <dimen name="buy_button_height">48dp</dimen>
+    <dimen name="buy_button_min_width">200dp</dimen>
+    <dimen name="buy_button_width">300dp</dimen>
+    <dimen name="margin_large">10dp</dimen>
+    <dimen name="margin_xlarge">30dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
     <string name="app_name">LimeApp</string>
+    <string name="buy_with_googlepay_button_content_description">Buy with Google Pay</string>
+    <string name="checkout_item_description">Description</string>
     <string name="default_web_client_id" translatable="false">976408751857-fn3s7d5hkkfbc011ak5i5jdj4nbha7kk.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://lime-pdb-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">976408751857</string>
@@ -38,7 +46,15 @@
     <string name="google_app_id" translatable="false">1:976408751857:android:571cf0a6f4d4cbf2488350</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA-N0BMhR-AJRHeqkfUMiVDEOuhPLbiKpg</string>
     <string name="google_storage_bucket" translatable="false">lime-pdb.appspot.com</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is
+        not available on this phone.
+    </string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for
+        %s!
+    </string>
     <string name="project_id" translatable="false">lime-pdb</string>
+    <string name="title_activity_checkout">CheckoutActivity</string>
     <style name="Theme.LimeApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">#008816</item>

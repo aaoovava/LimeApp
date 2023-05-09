@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-bn/values-bn.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-bn/values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\43a64de5a16f642f933aa2c844c81289\\transformed\\core-1.9.0\\res\\values-bn\\values-bn.xml",
@@ -52,6 +52,23 @@
                         "startOffsets": "3820,3929,4088,4216,4327,4463,4585,4697,4953,5096,5205,5361,5489,5622,5770,5830,5897",
                         "endColumns": "108,158,127,110,135,121,111,103,142,108,155,127,132,147,59,66,89",
                         "endOffsets": "3924,4083,4211,4322,4458,4580,4692,4796,5091,5200,5356,5484,5617,5765,5825,5892,5982"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-bn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "79",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "119",
+                        "startColumns": "4",
+                        "startOffsets": "10771",
+                        "endColumns": "83",
+                        "endOffsets": "10850"
                     }
                 },
                 {

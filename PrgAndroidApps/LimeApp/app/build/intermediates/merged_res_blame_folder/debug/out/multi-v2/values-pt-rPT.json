@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\43a64de5a16f642f933aa2c844c81289\\transformed\\core-1.9.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
@@ -54,6 +54,23 @@
                         "startOffsets": "3796,3901,4064,4192,4300,4468,4596,4718,4972,5160,5268,5438,5569,5728,5906,5974,6043",
                         "endColumns": "104,162,127,107,167,127,121,108,187,107,169,130,158,177,67,68,86",
                         "endOffsets": "3896,4059,4187,4295,4463,4591,4713,4822,5155,5263,5433,5564,5723,5901,5969,6038,6125"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-pt-rPT\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "75",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "119",
+                        "startColumns": "4",
+                        "startOffsets": "11043",
+                        "endColumns": "79",
+                        "endOffsets": "11118"
                     }
                 },
                 {

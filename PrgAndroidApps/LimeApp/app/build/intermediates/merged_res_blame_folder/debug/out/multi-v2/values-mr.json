@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-mr/values-mr.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\4a8fc8d4cffe1deef03672f2112cd6a4\\transformed\\appcompat-1.6.1\\res\\values-mr\\values-mr.xml",
@@ -35,6 +35,23 @@
                         "startOffsets": "5888,6143,6244,6355",
                         "endColumns": "100,100,110,101",
                         "endOffsets": "5984,6239,6350,6452"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-mr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "119",
+                        "startColumns": "4",
+                        "startOffsets": "10626",
+                        "endColumns": "78",
+                        "endOffsets": "10700"
                     }
                 },
                 {

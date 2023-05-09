@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-35:/values-kk/values-kk.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d488f2c4c46007d73eddcd94b832f4ea\\transformed\\material-1.9.0\\res\\values-kk\\values-kk.xml",
@@ -37,6 +37,23 @@
                         "startOffsets": "4701",
                         "endColumns": "163",
                         "endOffsets": "4860"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "78",
+                        "endOffsets": "280"
+                    },
+                    "to": {
+                        "startLines": "119",
+                        "startColumns": "4",
+                        "startOffsets": "10726",
+                        "endColumns": "82",
+                        "endOffsets": "10804"
                     }
                 },
                 {
