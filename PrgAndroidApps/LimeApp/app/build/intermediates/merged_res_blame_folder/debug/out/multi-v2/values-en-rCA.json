@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-45:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\43a64de5a16f642f933aa2c844c81289\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d7357ac2df25e308cf57b1bead6030e6\\transformed\\jetified-play-services-wallet-19.1.0\\res\\values-en-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "35",
+                        "startColumns": "4",
+                        "startOffsets": "3349",
+                        "endColumns": "74",
+                        "endOffsets": "3419"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d202b99fdcb0faf422c374addae72b3c\\transformed\\browser-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -35,23 +52,6 @@
                         "startOffsets": "2762,2860,2957,3066",
                         "endColumns": "97,96,108,98",
                         "endOffsets": "2855,2952,3061,3160"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-en-rCA\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "206",
-                        "endColumns": "70",
-                        "endOffsets": "276"
-                    },
-                    "to": {
-                        "startLines": "35",
-                        "startColumns": "4",
-                        "startOffsets": "3349",
-                        "endColumns": "74",
-                        "endOffsets": "3419"
                     }
                 },
                 {

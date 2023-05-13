@@ -58,7 +58,7 @@ public class MainScreenActivity extends AppCompatActivity {
             progressBar4.setVisibility(View.VISIBLE);
             users.child(userId).addValueEventListener(new ValueEventListener() {
                 @Override
-                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                public  void onDataChange(@NonNull DataSnapshot snapshot) {
                     String Uname,Sname;
                     String usName = snapshot.child("name").getValue().toString();
                     String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
@@ -77,14 +77,15 @@ public class MainScreenActivity extends AppCompatActivity {
 
                     viePagerItemArrayList = new ArrayList<>();
                     String image = snapshot.child("image").getValue().toString();
-                    ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент","Дата початку дії: ","Дата закінчення дії: ",AfirstDate,ALastDate,image);
+                    ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент","Дата початку дії: ","Дата закінчення дії: ",AfirstDate,ALastDate,image,getResources().getDrawable(R.drawable.freeze));
                     viePagerItemArrayList.add(AviePagerItem);
-                    ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname,"Групові заняття","Кількість занять: ", "Використана кількість: ",PfirstDate,PLastDate,image);
+
+                    ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname,"Групові заняття","Кількість занять: ", "Використана кількість: ",PfirstDate,PLastDate,image,getResources().getDrawable(R.drawable.group_18));
 
                     viePagerItemArrayList.add(PviePagerItem);
 
 
-                    VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList);
+                    VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList,MainScreenActivity.this);
 
 
 

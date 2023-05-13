@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-ur/values-ur.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-45:/values-ur/values-ur.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\ec1d0473320eafbc6e1a7cdc007dfb1a\\transformed\\play-services-basement-18.1.0\\res\\values-ur\\values.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d7357ac2df25e308cf57b1bead6030e6\\transformed\\jetified-play-services-wallet-19.1.0\\res\\values-ur\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "147",
-                        "endOffsets": "342"
+                        "startOffsets": "202",
+                        "endColumns": "76",
+                        "endOffsets": "278"
                     },
                     "to": {
-                        "startLines": "49",
+                        "startLines": "127",
                         "startColumns": "4",
-                        "startOffsets": "4751",
-                        "endColumns": "151",
-                        "endOffsets": "4898"
+                        "startOffsets": "11365",
+                        "endColumns": "80",
+                        "endOffsets": "11441"
                     }
                 },
                 {
@@ -55,24 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\4a7f83fd254fa05cc8acd7d644c57a96\\transformed\\play-services-base-18.1.0\\res\\values-ur\\values.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\b1a0e3f6e6f7e517967a5f2a4f9af557\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-ur\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,297,457,579,686,822,945,1053,1153,1301,1407,1575,1699,1841,2006,2065,2128",
-                        "endColumns": "103,159,121,106,135,122,107,99,147,105,167,123,141,164,58,62,83",
-                        "endOffsets": "296,456,578,685,821,944,1052,1152,1300,1406,1574,1698,1840,2005,2064,2127,2211"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "147",
+                        "endOffsets": "342"
                     },
                     "to": {
-                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3759,3867,4031,4157,4268,4408,4535,4647,4903,5055,5165,5337,5465,5611,5780,5843,5910",
-                        "endColumns": "107,163,125,110,139,126,111,103,151,109,171,127,145,168,62,66,87",
-                        "endOffsets": "3862,4026,4152,4263,4403,4530,4642,4746,5050,5160,5332,5460,5606,5775,5838,5905,5993"
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "4751",
+                        "endColumns": "151",
+                        "endOffsets": "4898"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8ecb1e8bcda1ed3a9f692ce25074d8de\\transformed\\android-image-cropper-2.8.0\\res\\values-ur\\values-ur.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\11c4c9349701d6832e0d2132e2548671\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-ur\\values-ur.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -86,6 +86,23 @@
                         "startOffsets": "6099,6203,6256,6313,6388,6469,6546,11101",
                         "endColumns": "103,52,56,74,80,76,64,76",
                         "endOffsets": "6198,6251,6308,6383,6464,6541,6606,11173"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8c0ed4805e3803440eefb56c7826066c\\transformed\\jetified-play-services-base-18.1.0\\res\\values-ur\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,297,457,579,686,822,945,1053,1153,1301,1407,1575,1699,1841,2006,2065,2128",
+                        "endColumns": "103,159,121,106,135,122,107,99,147,105,167,123,141,164,58,62,83",
+                        "endOffsets": "296,456,578,685,821,944,1052,1152,1300,1406,1574,1698,1840,2005,2064,2127,2211"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3759,3867,4031,4157,4268,4408,4535,4647,4903,5055,5165,5337,5465,5611,5780,5843,5910",
+                        "endColumns": "107,163,125,110,139,126,111,103,151,109,171,127,145,168,62,66,87",
+                        "endOffsets": "3862,4026,4152,4263,4403,4530,4642,4746,5050,5160,5332,5460,5606,5775,5838,5905,5993"
                     }
                 },
                 {
@@ -105,23 +122,6 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,67,68,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123",
                         "endColumns": "12,77,77,77,97,88,99,118,82,64,92,69,58,89,63,68,57,68,59,63,111,58,58,54,74,122,79,83,132,81,80,86,57,55,65,74,79,84,66,74,76,63,93,69,88,92,73,74,89,55,66,83,83,61,63,62,99,106,93,108,61,59,79",
                         "endOffsets": "304,3109,3187,3265,3363,3452,3552,3671,3754,6671,6764,7153,7212,7302,7366,7435,7493,7562,7622,7686,7798,7857,7916,7971,8046,8169,8249,8333,8466,8548,8629,8716,8774,8830,8896,8971,9051,9136,9203,9278,9355,9419,9513,9583,9672,9765,9839,9914,10004,10060,10127,10211,10295,10357,10421,10484,10584,10691,10785,10894,10956,11016,11096"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-ur\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "202",
-                        "endColumns": "76",
-                        "endOffsets": "278"
-                    },
-                    "to": {
-                        "startLines": "127",
-                        "startColumns": "4",
-                        "startOffsets": "11365",
-                        "endColumns": "80",
-                        "endOffsets": "11441"
                     }
                 },
                 {

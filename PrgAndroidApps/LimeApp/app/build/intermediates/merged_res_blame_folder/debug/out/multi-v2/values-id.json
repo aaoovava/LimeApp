@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-id/values-id.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-45:/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8ecb1e8bcda1ed3a9f692ce25074d8de\\transformed\\android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\11c4c9349701d6832e0d2132e2548671\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-id\\values.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d7357ac2df25e308cf57b1bead6030e6\\transformed\\jetified-play-services-wallet-19.1.0\\res\\values-id\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

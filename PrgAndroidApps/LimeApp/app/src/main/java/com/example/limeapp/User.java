@@ -1,7 +1,21 @@
 package com.example.limeapp;
 
 public class User {
-    String name,number,password,age,Aboniment_start_date,Aboniment_end_date,Personal_t_name,Personal_t_start_date,Personal_t_end_date,image;
+    String name,number,password,age,Aboniment_start_date,Aboniment_end_date,Personal_t_name,Personal_t_start_date,Personal_t_end_date,image,freeze_days;
+
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String personal_t_name, String personal_t_start_date, String personal_t_end_date, String image, String freeze_days) {
+        this.name = name;
+        this.number = number;
+        this.password = password;
+        this.age = age;
+        Aboniment_start_date = aboniment_start_date;
+        Aboniment_end_date = aboniment_end_date;
+        Personal_t_name = personal_t_name;
+        Personal_t_start_date = personal_t_start_date;
+        Personal_t_end_date = personal_t_end_date;
+        this.image = image;
+        this.freeze_days = freeze_days;
+    }
 
     public String getName() {
         return name;
@@ -83,16 +97,11 @@ public class User {
         this.image = image;
     }
 
-    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String personal_t_name, String personal_t_start_date, String personal_t_end_date, String image) {
-        this.name = name;
-        this.number = number;
-        this.password = password;
-        this.age = age;
-        Aboniment_start_date = aboniment_start_date;
-        Aboniment_end_date = aboniment_end_date;
-        Personal_t_name = personal_t_name;
-        Personal_t_start_date = personal_t_start_date;
-        Personal_t_end_date = personal_t_end_date;
-        this.image = image;
+    public String getFreeze_days() {
+        return freeze_days;
+    }
+
+    public void setFreeze_days(String freeze_days) {
+        this.freeze_days = freeze_days;
     }
 }

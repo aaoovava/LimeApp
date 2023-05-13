@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.limeapp-mergeDebugResources-43:/values-es/values-es.xml",
+            "outputFile": "com.example.limeapp-mergeDebugResources-45:/values-es/values-es.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\3ae3457c555ec30cb24e27629d77be0c\\transformed\\play-services-wallet-19.1.0\\res\\values-es\\values.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\11c4c9349701d6832e0d2132e2548671\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-es\\values-es.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "202",
-                        "endColumns": "73",
-                        "endOffsets": "275"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,176,223,279,342,428,510,587,663",
+                        "endColumns": "120,46,55,62,85,81,76,75,78",
+                        "endOffsets": "171,218,274,337,423,505,582,658,737"
                     },
                     "to": {
-                        "startLines": "128",
-                        "startColumns": "4",
-                        "startOffsets": "11747",
-                        "endColumns": "77",
-                        "endOffsets": "11820"
+                        "startLines": "60,61,62,63,64,65,66,67,125",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6254,6375,6422,6478,6541,6627,6709,6786,11484",
+                        "endColumns": "120,46,55,62,85,81,76,75,78",
+                        "endOffsets": "6370,6417,6473,6536,6622,6704,6781,6857,11558"
                     }
                 },
                 {
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\4a7f83fd254fa05cc8acd7d644c57a96\\transformed\\play-services-base-18.1.0\\res\\values-es\\values.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8c0ed4805e3803440eefb56c7826066c\\transformed\\jetified-play-services-base-18.1.0\\res\\values-es\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\8ecb1e8bcda1ed3a9f692ce25074d8de\\transformed\\android-image-cropper-2.8.0\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d7357ac2df25e308cf57b1bead6030e6\\transformed\\jetified-play-services-wallet-19.1.0\\res\\values-es\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,176,223,279,342,428,510,587,663",
-                        "endColumns": "120,46,55,62,85,81,76,75,78",
-                        "endOffsets": "171,218,274,337,423,505,582,658,737"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
                     },
                     "to": {
-                        "startLines": "60,61,62,63,64,65,66,67,125",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "6254,6375,6422,6478,6541,6627,6709,6786,11484",
-                        "endColumns": "120,46,55,62,85,81,76,75,78",
-                        "endOffsets": "6370,6417,6473,6536,6622,6704,6781,6857,11558"
+                        "startLines": "128",
+                        "startColumns": "4",
+                        "startOffsets": "11747",
+                        "endColumns": "77",
+                        "endOffsets": "11820"
                     }
                 },
                 {
@@ -108,7 +108,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\ec1d0473320eafbc6e1a7cdc007dfb1a\\transformed\\play-services-basement-18.1.0\\res\\values-es\\values.xml",
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\b1a0e3f6e6f7e517967a5f2a4f9af557\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-es\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

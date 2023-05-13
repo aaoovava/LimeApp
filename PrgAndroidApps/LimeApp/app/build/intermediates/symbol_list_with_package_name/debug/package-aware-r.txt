@@ -214,6 +214,40 @@ attr boxStrokeErrorColor
 attr boxStrokeWidth
 attr boxStrokeWidthFocused
 attr brightness
+attr bsb_always_show_bubble
+attr bsb_always_show_bubble_delay
+attr bsb_anim_duration
+attr bsb_auto_adjust_section_mark
+attr bsb_bubble_color
+attr bsb_bubble_text_color
+attr bsb_bubble_text_size
+attr bsb_hide_bubble
+attr bsb_is_float_type
+attr bsb_max
+attr bsb_min
+attr bsb_progress
+attr bsb_rtl
+attr bsb_second_track_color
+attr bsb_second_track_size
+attr bsb_section_count
+attr bsb_section_text_color
+attr bsb_section_text_interval
+attr bsb_section_text_position
+attr bsb_section_text_size
+attr bsb_seek_by_section
+attr bsb_seek_step_section
+attr bsb_show_progress_in_float
+attr bsb_show_section_mark
+attr bsb_show_section_text
+attr bsb_show_thumb_text
+attr bsb_thumb_color
+attr bsb_thumb_radius
+attr bsb_thumb_radius_on_dragging
+attr bsb_thumb_text_color
+attr bsb_thumb_text_size
+attr bsb_touch_to_seek
+attr bsb_track_color
+attr bsb_track_size
 attr buttonBarButtonStyle
 attr buttonBarNegativeButtonStyle
 attr buttonBarNeutralButtonStyle
@@ -716,6 +750,44 @@ attr isLightTheme
 attr isMaterial3DynamicColorApplied
 attr isMaterial3Theme
 attr isMaterialTheme
+attr isb_clear_default_padding
+attr isb_indicator_color
+attr isb_indicator_content_layout
+attr isb_indicator_text_color
+attr isb_indicator_text_size
+attr isb_indicator_top_content_layout
+attr isb_max
+attr isb_min
+attr isb_only_thumb_draggable
+attr isb_progress
+attr isb_progress_value_float
+attr isb_r2l
+attr isb_seek_smoothly
+attr isb_show_indicator
+attr isb_show_thumb_text
+attr isb_show_tick_marks_type
+attr isb_show_tick_texts
+attr isb_thumb_adjust_auto
+attr isb_thumb_color
+attr isb_thumb_drawable
+attr isb_thumb_size
+attr isb_thumb_text_color
+attr isb_tick_marks_color
+attr isb_tick_marks_drawable
+attr isb_tick_marks_ends_hide
+attr isb_tick_marks_size
+attr isb_tick_marks_swept_hide
+attr isb_tick_texts_array
+attr isb_tick_texts_color
+attr isb_tick_texts_size
+attr isb_tick_texts_typeface
+attr isb_ticks_count
+attr isb_track_background_color
+attr isb_track_background_size
+attr isb_track_progress_color
+attr isb_track_progress_size
+attr isb_track_rounded_corners
+attr isb_user_seekable
 attr itemActiveIndicatorStyle
 attr itemBackground
 attr itemFillColor
@@ -1455,6 +1527,9 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1515,6 +1590,8 @@ color foreground_material_light
 color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color isb_selector_tick_marks_color
+color isb_selector_tick_texts_color
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2964,6 +3041,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable ____________________
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3058,10 +3136,12 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable buton_prof
 drawable butons_st
 drawable buy_with_googlepay_button_content
+drawable calendar
 drawable cardconteiner
 drawable cardconteinerp
 drawable cardconteinerprise
 drawable cardconteinerprof
+drawable closebut
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3084,6 +3164,7 @@ drawable common_google_signin_btn_text_light_normal_background
 drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
+drawable date_edit
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3095,6 +3176,8 @@ drawable dot_background
 drawable ellipse_1
 drawable ellipse_3
 drawable fon_sh
+drawable freeze
+drawable freezeicon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googlepay_button_background
@@ -3105,6 +3188,9 @@ drawable googlepay_button_no_shadow_background_image
 drawable googlepay_button_overlay
 drawable group
 drawable group_10
+drawable group_15
+drawable group_18
+drawable group_19
 drawable group_8
 drawable group_9
 drawable ic_arrow_back_black_24
@@ -3124,6 +3210,8 @@ drawable ic_search_black_24
 drawable icon
 drawable id_card
 drawable intersect
+drawable isb_indicator_rounded_corners
+drawable isb_indicator_square_corners
 drawable lime_svgrepo_com
 drawable login_guy
 drawable logo
@@ -3141,6 +3229,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable mainfreezebut
 drawable mainpad
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -3202,6 +3291,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable padge
 drawable passimg
 drawable phone_icon
 drawable plus_svgrepo_com_1
@@ -3229,9 +3319,11 @@ drawable rectangle_11
 drawable rectangle_13
 drawable rectangle_7
 drawable rectangle_7oki
+drawable rectangle_none
 drawable regicon
 drawable spring_dot_background
 drawable spring_dot_stroke_background
+drawable subtract
 drawable test_level_drawable
 drawable text_edit
 drawable tooltip_frame_dark
@@ -3251,9 +3343,15 @@ id ALT
 id Adapter
 id BOTTOM_END
 id BOTTOM_START
+id ButM
 id CTRL
+id CloseBut
+id Corect
+id CountOfD
+id CountOfU
 id CropOverlayView
 id CropProgressBar
+id DataEdit
 id DocButPrise
 id EditTextAge
 id EditTextPass
@@ -3358,12 +3456,15 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id baсk
 id beginOnFirstDraw
 id beginning
+id below_section_mark
 id bestChoice
 id blocking
 id book_now
 id bottom
+id bottom_sides
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3395,6 +3496,7 @@ id checkbox
 id checked
 id chronometer
 id circle_center
+id circular_bubble
 id classic
 id clear_text
 id clip_horizontal
@@ -3446,6 +3548,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id divider
 id donate_with
 id donate_with_google
 id dot
@@ -3525,15 +3628,22 @@ id image
 id imageView
 id imageView10
 id imageView11
+id imageView13
 id imageView14
 id imageView15
 id imageView16
 id imageView17
+id imageView18
+id imageView19
 id imageView2
 id imageView20
 id imageView21
+id imageView22
 id imageView23
 id imageView24
+id imageView25
+id imageView26
+id imageView27
 id imageView28
 id imageView3
 id imageView32
@@ -3552,9 +3662,12 @@ id imagebous
 id immediateStop
 id included
 id indeterminate
+id indicator_arrow
+id indicator_container
 id info
 id invisible
 id inward
+id isb_progress
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3604,6 +3717,7 @@ id message
 id middle
 id mini
 id monochrome
+id monospace
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3710,8 +3824,10 @@ id rightToLeft
 id right_icon
 id right_side
 id rounded
+id rounded_rectangle
 id row_index_key
 id sandbox
+id sans
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -3752,12 +3868,14 @@ id select_dialog_listview
 id selected
 id selectionDetails
 id selection_type
+id serif
 id sharedValueSet
 id sharedValueUnset
 id shortcut
 id showCustom
 id showHome
 id showTitle
+id sides
 id sin
 id skipCollapsed
 id skipped
@@ -3990,6 +4108,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_freeze
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout crop_image_activity
@@ -4011,6 +4130,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dot_layout
+layout isb_indicator
 layout login_activity
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -5421,6 +5541,7 @@ styleable BaseProgressIndicator android_indeterminate hideAnimationBehavior indi
 styleable BottomAppBar addElevationShadow backgroundTint elevation fabAlignmentMode fabAlignmentModeEndMargin fabAnchorMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll menuAlignmentMode navigationIconTint paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets removeEmbeddedFabElevation
 styleable BottomNavigationView android_minHeight compatShadowEnabled itemHorizontalTranslationEnabled
 styleable BottomSheetBehavior_Layout android_maxWidth android_maxHeight android_elevation backgroundTint behavior_draggable behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_significantVelocityThreshold behavior_skipCollapsed gestureInsetBottomIgnored marginLeftSystemWindowInsets marginRightSystemWindowInsets marginTopSystemWindowInsets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets paddingTopSystemWindowInsets shapeAppearance shapeAppearanceOverlay shouldRemoveExpandedCorners
+styleable BubbleSeekBar android_enabled bsb_always_show_bubble bsb_always_show_bubble_delay bsb_anim_duration bsb_auto_adjust_section_mark bsb_bubble_color bsb_bubble_text_color bsb_bubble_text_size bsb_hide_bubble bsb_is_float_type bsb_max bsb_min bsb_progress bsb_rtl bsb_second_track_color bsb_second_track_size bsb_section_count bsb_section_text_color bsb_section_text_interval bsb_section_text_position bsb_section_text_size bsb_seek_by_section bsb_seek_step_section bsb_show_progress_in_float bsb_show_section_mark bsb_show_section_text bsb_show_thumb_text bsb_thumb_color bsb_thumb_radius bsb_thumb_radius_on_dragging bsb_thumb_text_color bsb_thumb_text_size bsb_touch_to_seek bsb_track_color bsb_track_size
 styleable ButtonBarLayout allowStacking
 styleable Capability queryPatterns shortcutMatchRequired
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
@@ -5463,6 +5584,7 @@ styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth
+styleable IndicatorSeekBar isb_clear_default_padding isb_indicator_color isb_indicator_content_layout isb_indicator_text_color isb_indicator_text_size isb_indicator_top_content_layout isb_max isb_min isb_only_thumb_draggable isb_progress isb_progress_value_float isb_r2l isb_seek_smoothly isb_show_indicator isb_show_thumb_text isb_show_tick_marks_type isb_show_tick_texts isb_thumb_adjust_auto isb_thumb_color isb_thumb_drawable isb_thumb_size isb_thumb_text_color isb_tick_marks_color isb_tick_marks_drawable isb_tick_marks_ends_hide isb_tick_marks_size isb_tick_marks_swept_hide isb_tick_texts_array isb_tick_texts_color isb_tick_texts_size isb_tick_texts_typeface isb_ticks_count isb_track_background_color isb_track_background_size isb_track_progress_color isb_track_progress_size isb_track_rounded_corners isb_user_seekable
 styleable Insets marginLeftSystemWindowInsets marginRightSystemWindowInsets marginTopSystemWindowInsets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets paddingTopSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transformPivotTarget transitionEasing transitionPathRotate
 styleable KeyCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveOffset wavePeriod wavePhase waveShape waveVariesBy
