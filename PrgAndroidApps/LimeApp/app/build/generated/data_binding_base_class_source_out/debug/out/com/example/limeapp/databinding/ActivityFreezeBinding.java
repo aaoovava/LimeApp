@@ -58,21 +58,21 @@ public final class ActivityFreezeBinding implements ViewBinding {
   public final ImageView imageView23;
 
   @NonNull
-  public final ImageView imageView25;
-
-  @NonNull
   public final ImageView imageView26;
 
   @NonNull
   public final ImageView imageView27;
+
+  @NonNull
+  public final TextView textView7;
 
   private ActivityFreezeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView CloseBut,
       @NonNull ImageView Corect, @NonNull TextView CountOfD, @NonNull TextView CountOfU,
       @NonNull EditText DataEdit, @NonNull ImageView baK, @NonNull ImageView imageView13,
       @NonNull ImageView imageView14, @NonNull ImageView imageView18,
       @NonNull ImageView imageView19, @NonNull ImageView imageView22,
-      @NonNull ImageView imageView23, @NonNull ImageView imageView25,
-      @NonNull ImageView imageView26, @NonNull ImageView imageView27) {
+      @NonNull ImageView imageView23, @NonNull ImageView imageView26,
+      @NonNull ImageView imageView27, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.CloseBut = CloseBut;
     this.Corect = Corect;
@@ -86,9 +86,9 @@ public final class ActivityFreezeBinding implements ViewBinding {
     this.imageView19 = imageView19;
     this.imageView22 = imageView22;
     this.imageView23 = imageView23;
-    this.imageView25 = imageView25;
     this.imageView26 = imageView26;
     this.imageView27 = imageView27;
+    this.textView7 = textView7;
   }
 
   @Override
@@ -190,12 +190,6 @@ public final class ActivityFreezeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView25;
-      ImageView imageView25 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView25 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView26;
       ImageView imageView26 = ViewBindings.findChildViewById(rootView, id);
       if (imageView26 == null) {
@@ -208,9 +202,15 @@ public final class ActivityFreezeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
       return new ActivityFreezeBinding((ConstraintLayout) rootView, CloseBut, Corect, CountOfD,
           CountOfU, DataEdit, baK, imageView13, imageView14, imageView18, imageView19, imageView22,
-          imageView23, imageView25, imageView26, imageView27);
+          imageView23, imageView26, imageView27, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -116,7 +116,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         Intent intent = new Intent(context, Freeze.class);
         context.startActivity(intent);
     }public void toTable(){
-        Intent intent = new Intent(context, ProfileActivity.class);
+        Intent intent = new Intent(context, table.class);
         context.startActivity(intent);
     }
 

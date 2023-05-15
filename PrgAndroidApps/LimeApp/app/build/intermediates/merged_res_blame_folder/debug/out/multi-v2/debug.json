@@ -2962,21 +2962,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\values-small-v4_values-small-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d488f2c4c46007d73eddcd94b832f4ea\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,128,198,270",
-                        "endColumns": "72,69,71,69",
-                        "endOffsets": "123,193,265,335"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\values-am_values-am.arsc.flat",
             "map": [
                 {
@@ -3098,6 +3083,21 @@
                         "startOffsets": "9963",
                         "endColumns": "100",
                         "endOffsets": "10059"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\values-small-v4_values-small-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Wasil\\.gradle\\caches\\transforms-3\\d488f2c4c46007d73eddcd94b832f4ea\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
                     }
                 }
             ]

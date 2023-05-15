@@ -3042,6 +3042,7 @@ dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
 drawable ____________________
+drawable _______________________
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3142,6 +3143,7 @@ drawable cardconteinerp
 drawable cardconteinerprise
 drawable cardconteinerprof
 drawable closebut
+drawable closetab
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3165,6 +3167,7 @@ drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
 drawable date_edit
+drawable day2
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3176,6 +3179,7 @@ drawable dot_background
 drawable ellipse_1
 drawable ellipse_3
 drawable fon_sh
+drawable frame_5
 drawable freeze
 drawable freezeicon
 drawable googleg_disabled_color_18
@@ -3191,6 +3195,8 @@ drawable group_10
 drawable group_15
 drawable group_18
 drawable group_19
+drawable group_33
+drawable group_42
 drawable group_8
 drawable group_9
 drawable ic_arrow_back_black_24
@@ -3278,6 +3284,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable munday
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3314,6 +3321,7 @@ drawable prise
 drawable profile_img
 drawable profileonid
 drawable profof
+drawable r_table
 drawable rectangle_1
 drawable rectangle_11
 drawable rectangle_13
@@ -3324,6 +3332,9 @@ drawable regicon
 drawable spring_dot_background
 drawable spring_dot_stroke_background
 drawable subtract
+drawable tab_card
+drawable table
+drawable tablesr
 drawable test_level_drawable
 drawable text_edit
 drawable tooltip_frame_dark
@@ -3346,6 +3357,7 @@ id BOTTOM_START
 id ButM
 id CTRL
 id CloseBut
+id CloseButTab
 id Corect
 id CountOfD
 id CountOfU
@@ -3616,6 +3628,7 @@ id holo_light
 id home
 id homeAsUp
 id honorRequest
+id horizontalScrollView
 id horizontal_only
 id hybrid
 id icon
@@ -3628,6 +3641,7 @@ id image
 id imageView
 id imageView10
 id imageView11
+id imageView12
 id imageView13
 id imageView14
 id imageView15
@@ -3641,12 +3655,13 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
-id imageView25
 id imageView26
 id imageView27
 id imageView28
 id imageView3
+id imageView30
 id imageView32
+id imageView33
 id imageView34
 id imageView35
 id imageView36
@@ -3942,6 +3957,7 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id textView8
 id text_input_end_icon
 id text_input_error_icon
@@ -4109,6 +4125,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_freeze
+layout activity_table
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout crop_image_activity

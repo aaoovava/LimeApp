@@ -19,6 +19,7 @@ dimen margin_large
 dimen margin_xlarge
 dimen padding_small
 drawable ____________________
+drawable _______________________
 drawable appiconmainscreen
 drawable auntofa
 drawable buton_prof
@@ -30,12 +31,15 @@ drawable cardconteinerp
 drawable cardconteinerprise
 drawable cardconteinerprof
 drawable closebut
+drawable closetab
 drawable date_edit
+drawable day2
 drawable doko
 drawable dokon
 drawable ellipse_1
 drawable ellipse_3
 drawable fon_sh
+drawable frame_5
 drawable freeze
 drawable freezeicon
 drawable googlepay_button_background
@@ -49,6 +53,8 @@ drawable group_10
 drawable group_15
 drawable group_18
 drawable group_19
+drawable group_33
+drawable group_42
 drawable group_8
 drawable group_9
 drawable ic_launcher_background
@@ -64,6 +70,7 @@ drawable logolime1
 drawable logout_svgrepo_com
 drawable mainfreezebut
 drawable mainpad
+drawable munday
 drawable padge
 drawable passimg
 drawable phone_icon
@@ -87,6 +94,7 @@ drawable prise
 drawable profile_img
 drawable profileonid
 drawable profof
+drawable r_table
 drawable rectangle_1
 drawable rectangle_11
 drawable rectangle_13
@@ -95,6 +103,9 @@ drawable rectangle_7oki
 drawable rectangle_none
 drawable regicon
 drawable subtract
+drawable tab_card
+drawable table
+drawable tablesr
 drawable text_edit
 drawable user_profile_4255_1
 drawable vector
@@ -108,6 +119,7 @@ font sd
 id Adapter
 id ButM
 id CloseBut
+id CloseButTab
 id Corect
 id CountOfD
 id CountOfU
@@ -129,10 +141,12 @@ id button_reg
 id editName
 id editTextTextPersonName2
 id firstDate
+id horizontalScrollView
 id icon
 id imageView
 id imageView10
 id imageView11
+id imageView12
 id imageView13
 id imageView14
 id imageView15
@@ -146,12 +160,13 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
-id imageView25
 id imageView26
 id imageView27
 id imageView28
 id imageView3
+id imageView30
 id imageView32
+id imageView33
 id imageView34
 id imageView35
 id imageView36
@@ -197,9 +212,11 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id textView8
 id viewPager
 layout activity_freeze
+layout activity_table
 layout login_activity
 layout main_screen_activity
 layout price_activity

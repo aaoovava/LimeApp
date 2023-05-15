@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\Wasil\.gradle\caches\transforms-3\11c4c9349701d6832e0d2132e2548671\transformed\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\Wasil\.gradle\caches\transforms-3\383e447c4a34e7bee284ab97f792d86b\transformed\jetified-viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Wasil\.gradle\caches\transforms-3\d488f2c4c46007d73eddcd94b832f4ea\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
@@ -74,22 +74,22 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Wasil\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\b4b28c16c6fddd285399d8d3f51f0b43\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Wasil\.gradle\caches\transforms-3\07d5b0f433294fb8566b4dccc1b96a3d\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Wasil\.gradle\caches\transforms-3\8e7d75848ec928ad180d922d17932652\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
-INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
 		INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-58:12
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -116,7 +116,7 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\Wasil\.grad
 	android:name
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:9:5-56:19
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:9:5-59:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Wasil\.gradle\caches\transforms-3\d488f2c4c46007d73eddcd94b832f4ea\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Wasil\.gradle\caches\transforms-3\d488f2c4c46007d73eddcd94b832f4ea\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Wasil\.gradle\caches\transforms-3\3229d8dbfb0c633e276edfd3e6294908\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -183,76 +183,84 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Wa
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:16:9-45
 	android:dataExtractionRules
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:11:9-65
-activity#com.example.limeapp.Freeze
+activity#com.example.limeapp.table
 ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:18:9-21:51
 	android:screenOrientation
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:21:13-49
 	android:exported
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:19:13-35
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:19:13-34
+activity#com.example.limeapp.Freeze
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:25:13-49
+	android:exported
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:23:13-35
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:23:9-25:36
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:26:9-28:36
 	android:value
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:25:13-33
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:28:13-33
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:24:13-69
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:13-69
 activity#com.example.limeapp.PriseScreen
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:27:9-30:52
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:30:9-33:52
 	android:screenOrientation
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:33:13-49
 	android:exported
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:28:13-40
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:31:13-40
 activity#com.example.limeapp.LogActivity
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:31:9-40:20
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:34:9-43:20
 	android:screenOrientation
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:37:13-49
 	android:exported
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:32:13-40
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:35:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.example.limeapp.RegActivity
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:41:9-43:52
-	android:screenOrientation
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:43:13-49
-	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:42:13-40
-activity#com.example.limeapp.MainScreenActivity
 ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:44:9-46:52
 	android:screenOrientation
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:46:13-49
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:45:13-47
-activity#com.example.limeapp.ProfileActivity
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:45:13-40
+activity#com.example.limeapp.MainScreenActivity
 ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:47:9-49:52
 	android:screenOrientation
 		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:49:13-49
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:48:13-44
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:48:13-47
+activity#com.example.limeapp.ProfileActivity
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:50:9-52:52
+	android:screenOrientation
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:51:13-44
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:50:9-52:59
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:53:9-55:59
 	android:theme
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:51:13-76
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:54:13-76
 meta-data#preloaded_fonts
-ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:53:9-55:57
+ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:56:9-58:57
 	android:resource
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:58:13-54
 	android:name
-		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:54:13-43
+		ADDED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml:57:13-43
 uses-sdk
 INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\src\main\AndroidManifest.xml
