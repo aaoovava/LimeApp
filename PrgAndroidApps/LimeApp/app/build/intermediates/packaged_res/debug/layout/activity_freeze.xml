@@ -155,7 +155,7 @@
         app:srcCompat="@drawable/mainfreezebut" />
 
     <ImageView
-        android:id="@+id/Corect"
+        android:id="@+id/Correct"
         android:layout_width="128dp"
         android:layout_height="53dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"

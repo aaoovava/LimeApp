@@ -16,10 +16,6 @@
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_freeze.xml"
     },
     {
-        "merged": "com.example.limeapp-mergeDebugResources-46:/layout/activity_table.xml",
-        "source": "com.example.limeapp-main-49:/layout/activity_table.xml"
-    },
-    {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\reg_activity.xml",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\reg_activity.xml"
     },
@@ -30,6 +26,10 @@
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\login_activity.xml",
         "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "com.example.limeapp-mergeDebugResources-46:/layout/activity_freeze.xml",
+        "source": "com.example.limeapp-main-49:/layout/activity_freeze.xml"
     },
     {
         "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\price_activity.xml",

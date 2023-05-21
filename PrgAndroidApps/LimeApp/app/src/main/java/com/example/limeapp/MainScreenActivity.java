@@ -1,15 +1,15 @@
 package com.example.limeapp;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.viewpager2.widget.ViewPager2;
@@ -21,11 +21,15 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.squareup.picasso.Picasso;
-import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class MainScreenActivity extends AppCompatActivity {
     FirebaseDatabase db;
@@ -50,82 +54,90 @@ public class MainScreenActivity extends AppCompatActivity {
         DatabaseReference users = db.getReference("users");
         String userId = user.getUid();
 
-
-        if (user == null){
-            toLogin();
-        }
-        else {
-            progressBar4.setVisibility(View.VISIBLE);
-            users.child(userId).addValueEventListener(new ValueEventListener() {
-                @Override
-                public  void onDataChange(@NonNull DataSnapshot snapshot) {
-                    String Uname,Sname;
-                    String usName = snapshot.child("name").getValue().toString();
-                    String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
-                    String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
-                    String PName = snapshot.child("personal_t_name").getValue().toString();
-                    String PfirstDate = snapshot.child("personal_t_start_date").getValue().toString();
-                    String PLastDate = snapshot.child("personal_t_end_date").getValue().toString();
-                    try {
-                        String[] words = Spase(usName);
-                        Uname = words[0];
-                        Sname = words[1];
-                    }catch (Exception e){
-                        Uname = usName;
-                        Sname = "";
-                    }
-
-                    viePagerItemArrayList = new ArrayList<>();
-                    String image = snapshot.child("image").getValue().toString();
-                    ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент","Дата початку дії: ","Дата закінчення дії: ",AfirstDate,ALastDate,image,getResources().getDrawable(R.drawable.freeze));
-                    viePagerItemArrayList.add(AviePagerItem);
-
-                    ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname,"Групові заняття","Кількість занять: ", "Використана кількість: ",PfirstDate,PLastDate,image,getResources().getDrawable(R.drawable.group_18));
-
-                    viePagerItemArrayList.add(PviePagerItem);
+            try {
 
 
-                    VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList,MainScreenActivity.this);
+                if (user == null) {
+                    toLogin();
+                } else {
+                    progressBar4.setVisibility(View.VISIBLE);
+                    int data;
+                    users.child(userId).addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            String Uname, Sname;
+                            String usName = snapshot.child("name").getValue().toString();
+                            String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
+                            String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
+                            String PName = snapshot.child("aboniment_status").getValue().toString();
+                            String PfirstDate = snapshot.child("group_t_countStart").getValue().toString();
+                            String PLastDate = snapshot.child("group_t_countEnd").getValue().toString();
+
+                            try {
+                                String[] words = Spase(usName);
+
+                                Uname = words[0];
+                                Sname = words[1];
+                            } catch (Exception e) {
+                                Uname = usName;
+                                Sname = "";
+                            }
+
+                            viePagerItemArrayList = new ArrayList<>();
+                            String image = "https://firebasestorage.googleapis.com/v0/b/lime-pdb.appspot.com/o/user-profile-4255%201.png?alt=media&token=d95cec80-d997-4d83-8c6f-30c8e98f3edb";
+                            try {
+                                image = snapshot.child("image").getValue().toString();
+                            } catch (Exception e) {
+                                image = "https://firebasestorage.googleapis.com/v0/b/lime-pdb.appspot.com/o/user-profile-4255%201.png?alt=media&token=d95cec80-d997-4d83-8c6f-30c8e98f3edb";
+                            }
+                            ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент", "Дата початку дії: ", "Дата закінчення дії: ", image, AfirstDate, ALastDate, getResources().getDrawable(R.drawable.freeze), getResources().getDrawable(R.drawable.status_1));
+                            viePagerItemArrayList.add(AviePagerItem);
+
+                            ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname, "Групові заняття", "Кількість занять: ", "Використана кількість: ", image, PfirstDate, PLastDate, getResources().getDrawable(R.drawable.group_18), getResources().getDrawable(R.drawable.checkdate1));
+
+                            viePagerItemArrayList.add(PviePagerItem);
 
 
-
-                    viewPager2.setAdapter(vp_adapter);
-                    viewPager2.setClipToPadding(false);
-                    viewPager2.setClipChildren(false);
-                    viewPager2.setOffscreenPageLimit(2);
-                    viewPager2.getChildAt(0).setOverScrollMode(View.OVER_SCROLL_NEVER);
-                    dotsIndicator.attachTo(viewPager2);
-                    progressBar4.setVisibility(View.INVISIBLE);
-                    dotsIndicator.setVisibility(View.VISIBLE);
+                            VP_Adapter vp_adapter = new VP_Adapter(viePagerItemArrayList, MainScreenActivity.this);
 
 
+                            viewPager2.setAdapter(vp_adapter);
+                            viewPager2.setClipToPadding(false);
+                            viewPager2.setClipChildren(false);
+                            viewPager2.setOffscreenPageLimit(2);
+                            viewPager2.getChildAt(0).setOverScrollMode(View.OVER_SCROLL_NEVER);
+                            dotsIndicator.attachTo(viewPager2);
+                            progressBar4.setVisibility(View.INVISIBLE);
+                            dotsIndicator.setVisibility(View.VISIBLE);
+
+
+                        }
+
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+
+                        }
+                    });
+
+                    profBut.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            toProfile();
+                        }
+                    });
+                    priseBut.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            toPrise();
+                        }
+                    });
 
 
                 }
-
-
-                @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-
-                }
-            });
-
-        profBut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toProfile();
+            }catch (Exception e){
+                toLogin();
             }
-        });
-        priseBut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toPrise();
-            }
-        });
-
-
-
-        }
 
     }
     public String[] Spase(String txt){
@@ -146,4 +158,5 @@ public class MainScreenActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LogActivity.class);
         startActivity(intent);
     }
+
 }

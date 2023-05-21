@@ -4,8 +4,10 @@ import android.graphics.drawable.Drawable;
 
 public class ViePagerItem {
     String Uname,Sname,AorB_name,start_date,end_date,Pimg,StartDate,EndDate;
-    Drawable ButImage;
-    public ViePagerItem(String uname, String sname, String aorB_name, String start_date, String end_date, String startDate, String endDate, String pimg, Drawable butImage) {
+    Drawable ButImage,StatusImage;
+
+
+    public ViePagerItem(String uname, String sname, String aorB_name, String start_date, String end_date, String pimg, String startDate, String endDate, Drawable butImage, Drawable statusImage) {
         Uname = uname;
         Sname = sname;
         AorB_name = aorB_name;
@@ -15,10 +17,6 @@ public class ViePagerItem {
         StartDate = startDate;
         EndDate = endDate;
         ButImage = butImage;
+        StatusImage = statusImage;
     }
-
-
-
-
-
 }

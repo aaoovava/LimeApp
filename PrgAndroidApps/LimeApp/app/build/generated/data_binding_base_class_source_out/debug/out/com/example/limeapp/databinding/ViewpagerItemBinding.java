@@ -35,6 +35,9 @@ public final class ViewpagerItemBinding implements ViewBinding {
   public final TextView Sname;
 
   @NonNull
+  public final ImageView StatusBut;
+
+  @NonNull
   public final TextView UName;
 
   @NonNull
@@ -54,14 +57,15 @@ public final class ViewpagerItemBinding implements ViewBinding {
 
   private ViewpagerItemBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ButM,
       @NonNull TextView EndDate, @NonNull TextView SatrtDate, @NonNull TextView Sname,
-      @NonNull TextView UName, @NonNull AppCompatTextView abb, @NonNull TextView firstDate,
-      @NonNull ImageView imageView10, @NonNull CircleImageView imageView20,
-      @NonNull TextView lastDate) {
+      @NonNull ImageView StatusBut, @NonNull TextView UName, @NonNull AppCompatTextView abb,
+      @NonNull TextView firstDate, @NonNull ImageView imageView10,
+      @NonNull CircleImageView imageView20, @NonNull TextView lastDate) {
     this.rootView = rootView;
     this.ButM = ButM;
     this.EndDate = EndDate;
     this.SatrtDate = SatrtDate;
     this.Sname = Sname;
+    this.StatusBut = StatusBut;
     this.UName = UName;
     this.abb = abb;
     this.firstDate = firstDate;
@@ -121,6 +125,12 @@ public final class ViewpagerItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.StatusBut;
+      ImageView StatusBut = ViewBindings.findChildViewById(rootView, id);
+      if (StatusBut == null) {
+        break missingId;
+      }
+
       id = R.id.UName;
       TextView UName = ViewBindings.findChildViewById(rootView, id);
       if (UName == null) {
@@ -158,7 +168,7 @@ public final class ViewpagerItemBinding implements ViewBinding {
       }
 
       return new ViewpagerItemBinding((ConstraintLayout) rootView, ButM, EndDate, SatrtDate, Sname,
-          UName, abb, firstDate, imageView10, imageView20, lastDate);
+          StatusBut, UName, abb, firstDate, imageView10, imageView20, lastDate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

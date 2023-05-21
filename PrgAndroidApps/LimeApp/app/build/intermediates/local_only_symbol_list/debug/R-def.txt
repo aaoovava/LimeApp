@@ -30,6 +30,9 @@ drawable cardconteiner
 drawable cardconteinerp
 drawable cardconteinerprise
 drawable cardconteinerprof
+drawable check_date
+drawable checkdate1
+drawable checkdate2
 drawable closebut
 drawable closetab
 drawable date_edit
@@ -102,6 +105,9 @@ drawable rectangle_7
 drawable rectangle_7oki
 drawable rectangle_none
 drawable regicon
+drawable status_1
+drawable status_2
+drawable status_3
 drawable subtract
 drawable tab_card
 drawable table
@@ -120,7 +126,7 @@ id Adapter
 id ButM
 id CloseBut
 id CloseButTab
-id Corect
+id Correct
 id CountOfD
 id CountOfU
 id DataEdit
@@ -134,6 +140,7 @@ id PIB
 id ProfButPrise
 id SatrtDate
 id Sname
+id StatusBut
 id UName
 id abb
 id baсk

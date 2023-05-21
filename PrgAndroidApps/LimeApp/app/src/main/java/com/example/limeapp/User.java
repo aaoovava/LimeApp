@@ -1,21 +1,7 @@
 package com.example.limeapp;
 
 public class User {
-    String name,number,password,age,Aboniment_start_date,Aboniment_end_date,Personal_t_name,Personal_t_start_date,Personal_t_end_date,image,freeze_days;
-
-    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String personal_t_name, String personal_t_start_date, String personal_t_end_date, String image, String freeze_days) {
-        this.name = name;
-        this.number = number;
-        this.password = password;
-        this.age = age;
-        Aboniment_start_date = aboniment_start_date;
-        Aboniment_end_date = aboniment_end_date;
-        Personal_t_name = personal_t_name;
-        Personal_t_start_date = personal_t_start_date;
-        Personal_t_end_date = personal_t_end_date;
-        this.image = image;
-        this.freeze_days = freeze_days;
-    }
+    String name, number, password, age, Aboniment_start_date, Aboniment_end_date, Aboniment_status, Group_t_countStart, Group_t_countEnd, image, freeze_days,freeze_date;
 
     public String getName() {
         return name;
@@ -65,28 +51,28 @@ public class User {
         Aboniment_end_date = aboniment_end_date;
     }
 
-    public String getPersonal_t_name() {
-        return Personal_t_name;
+    public String getAboniment_status() {
+        return Aboniment_status;
     }
 
-    public void setPersonal_t_name(String personal_t_name) {
-        Personal_t_name = personal_t_name;
+    public void setAboniment_status(String aboniment_status) {
+        Aboniment_status = aboniment_status;
     }
 
-    public String getPersonal_t_start_date() {
-        return Personal_t_start_date;
+    public String getGroup_t_countStart() {
+        return Group_t_countStart;
     }
 
-    public void setPersonal_t_start_date(String personal_t_start_date) {
-        Personal_t_start_date = personal_t_start_date;
+    public void setGroup_t_countStart(String group_t_countStart) {
+        Group_t_countStart = group_t_countStart;
     }
 
-    public String getPersonal_t_end_date() {
-        return Personal_t_end_date;
+    public String getGroup_t_countEnd() {
+        return Group_t_countEnd;
     }
 
-    public void setPersonal_t_end_date(String personal_t_end_date) {
-        Personal_t_end_date = personal_t_end_date;
+    public void setGroup_t_countEnd(String group_t_countEnd) {
+        Group_t_countEnd = group_t_countEnd;
     }
 
     public String getImage() {
@@ -103,5 +89,28 @@ public class User {
 
     public void setFreeze_days(String freeze_days) {
         this.freeze_days = freeze_days;
+    }
+
+    public String getFreeze_date() {
+        return freeze_date;
+    }
+
+    public void setFreeze_date(String freeze_date) {
+        this.freeze_date = freeze_date;
+    }
+
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_countStart, String group_t_countEnd, String image, String freeze_days, String freeze_date) {
+        this.name = name;
+        this.number = number;
+        this.password = password;
+        this.age = age;
+        Aboniment_start_date = aboniment_start_date;
+        Aboniment_end_date = aboniment_end_date;
+        Aboniment_status = aboniment_status;
+        Group_t_countStart = group_t_countStart;
+        Group_t_countEnd = group_t_countEnd;
+        this.image = image;
+        this.freeze_days = freeze_days;
+        this.freeze_date = freeze_date;
     }
 }

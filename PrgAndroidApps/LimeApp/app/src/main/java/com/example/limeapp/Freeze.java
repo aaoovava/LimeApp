@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -22,6 +23,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+
 public class Freeze extends AppCompatActivity {
     FirebaseDatabase db;
     @Override
@@ -30,23 +37,31 @@ public class Freeze extends AppCompatActivity {
         setContentView(R.layout.activity_freeze);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
-        TextView countOfU = findViewById(R.id.CountOfU);
+        TextView countOfInput = findViewById(R.id.CountOfU);
         TextView countOfD = findViewById(R.id.CountOfD);
         EditText dataEdit = findViewById(R.id.DataEdit);
         ImageView closeBut = findViewById(R.id.CloseBut);
+        ImageView backBut = findViewById(R.id.baсk);
+        ImageView correctBut = findViewById(R.id.Correct);
+
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
         db = FirebaseDatabase.getInstance();
         DatabaseReference users = db.getReference("users");
         String userId = user.getUid();
-
+        backBut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toMain();
+            }
+        });
         users.child(userId).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String Dres = (snapshot.child("freeze_days").getValue().toString()) + " дн";
                 countOfD.setText(Dres);
-                countOfU.setText("0 дн");
+                countOfInput.setText("0 дн");
 
                 dataEdit.addTextChangedListener(new TextWatcher() {
                     @Override
@@ -61,6 +76,7 @@ public class Freeze extends AppCompatActivity {
 
                     @Override
                     public void afterTextChanged(Editable s) {
+                        String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                         int Data = Integer.parseInt(snapshot.child("freeze_days").getValue().toString());
                         if (s.toString() != ""){
                             closeBut.setVisibility(View.VISIBLE);
@@ -72,8 +88,8 @@ public class Freeze extends AppCompatActivity {
                                 }
                             });
                         }
-                        String Ures = s.toString() + " дн";
-                        countOfU.setText(Ures);
+                        String Input = s.toString() + " дн";
+                        countOfInput.setText(Input);
                         try {
                             String a = String.valueOf(Data - Integer.parseInt(s.toString()) +" дн");
                             countOfD.setText(a);
@@ -89,6 +105,16 @@ public class Freeze extends AppCompatActivity {
                             }}catch (Exception e){
 
                         }
+                        correctBut.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                HashMap<String,Object> j  = new HashMap<>();
+                                j.put("aboniment_end_date",getDate(ALastDate,Integer.parseInt(s.toString())));
+                                j.put("aboniment_status",getDate(ALastDate,Integer.parseInt(s.toString())));
+                                users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+                                toMain();
+                            }
+                        });
 
                     }
                 });
@@ -110,5 +136,29 @@ public class Freeze extends AppCompatActivity {
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
     }
+    public String getDate(String strdate,int daysCount){
+        String dateString = strdate;
+        String res = "";
+        Date date = new Date();
+        Date newDate = new Date();
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        try {
+            date = format.parse(dateString);
 
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(date);
+            calendar.add(Calendar.DAY_OF_MONTH, daysCount);
+
+             newDate = calendar.getTime();
+            res = format.format(newDate);
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return res;
+    }
+    public  void toMain(){
+        Intent intent = new Intent(this, MainScreenActivity.class);
+        startActivity(intent);
+    }
 }

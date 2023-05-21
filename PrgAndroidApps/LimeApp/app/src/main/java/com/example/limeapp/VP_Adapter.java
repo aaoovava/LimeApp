@@ -4,27 +4,41 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatViewInflater;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
+    FirebaseDatabase db;
     private List<ViePagerItem> viePagerItemsArrayList;
     private Context context;
+
 
     public VP_Adapter(ArrayList<ViePagerItem> viePagerItemsArrayList, Context context) {
         this.viePagerItemsArrayList = viePagerItemsArrayList;
@@ -36,16 +50,37 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        FirebaseUser user = auth.getCurrentUser();
+        db = FirebaseDatabase.getInstance();
+        DatabaseReference users = db.getReference("users");
+        String userId = user.getUid();
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.viewpager_item,parent,false);
         ViewHolder viewHolder = new ViewHolder(view);
 
-        viewHolder.ButM.setOnClickListener(new View.OnClickListener() {
+        users.child(userId).addValueEventListener(new ValueEventListener() {
             @Override
-            public void onClick(View v) {
-                int position = viewHolder.getAdapterPosition();
-                handleButtonClick(position);
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
+                String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
+
+                viewHolder.ButM.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Boolean dateCheck = true;
+                        int position = viewHolder.getAdapterPosition();
+                        if (AfirstDate.equals("немає"))dateCheck = false;
+                        handleButtonClick(position,dateCheck);
+                    }
+                });
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
             }
         });
+
 
         return viewHolder;
     }
@@ -62,6 +97,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         holder.StartDate.setText(pagerItem.StartDate);
         holder.EndDate.setText(pagerItem.EndDate);
         holder.ButM.setImageDrawable(pagerItem.ButImage);
+        holder.StatusBut.setImageDrawable(pagerItem.StatusImage);
 
 
 
@@ -81,6 +117,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         TextView SName;
         ImageView ButM;
 
+        ImageView StatusBut;
+
 
         TextView StartDate;
 
@@ -89,6 +127,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            StatusBut = itemView.findViewById(R.id.StatusBut);
             ButM = itemView.findViewById(R.id.ButM);
             circleImageView = itemView.findViewById(R.id.imageView20);
             Title_txt = itemView.findViewById(R.id.abb);
@@ -101,7 +140,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
         }
     }
-    public void handleButtonClick(int position) {
+    public void handleButtonClick(int position,boolean DataCheck) {
+        if (DataCheck == true || position == 1){
         switch (position) {
             case 0:
                 toFreeze();
@@ -110,6 +150,9 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 toTable();
                 break;
 
+        }}else {
+            Toast toast = Toast.makeText(context,"Відсутній абонемент",Toast.LENGTH_SHORT);
+            toast.show();
         }
     }
     public void toFreeze(){
@@ -119,6 +162,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         Intent intent = new Intent(context, table.class);
         context.startActivity(intent);
     }
+
+
 
 }
 

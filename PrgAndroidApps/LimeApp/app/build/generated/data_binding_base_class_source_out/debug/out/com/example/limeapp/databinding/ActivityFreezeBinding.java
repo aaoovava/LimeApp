@@ -25,7 +25,7 @@ public final class ActivityFreezeBinding implements ViewBinding {
   public final ImageView CloseBut;
 
   @NonNull
-  public final ImageView Corect;
+  public final ImageView Correct;
 
   @NonNull
   public final TextView CountOfD;
@@ -67,7 +67,7 @@ public final class ActivityFreezeBinding implements ViewBinding {
   public final TextView textView7;
 
   private ActivityFreezeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView CloseBut,
-      @NonNull ImageView Corect, @NonNull TextView CountOfD, @NonNull TextView CountOfU,
+      @NonNull ImageView Correct, @NonNull TextView CountOfD, @NonNull TextView CountOfU,
       @NonNull EditText DataEdit, @NonNull ImageView baK, @NonNull ImageView imageView13,
       @NonNull ImageView imageView14, @NonNull ImageView imageView18,
       @NonNull ImageView imageView19, @NonNull ImageView imageView22,
@@ -75,7 +75,7 @@ public final class ActivityFreezeBinding implements ViewBinding {
       @NonNull ImageView imageView27, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.CloseBut = CloseBut;
-    this.Corect = Corect;
+    this.Correct = Correct;
     this.CountOfD = CountOfD;
     this.CountOfU = CountOfU;
     this.DataEdit = DataEdit;
@@ -124,9 +124,9 @@ public final class ActivityFreezeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.Corect;
-      ImageView Corect = ViewBindings.findChildViewById(rootView, id);
-      if (Corect == null) {
+      id = R.id.Correct;
+      ImageView Correct = ViewBindings.findChildViewById(rootView, id);
+      if (Correct == null) {
         break missingId;
       }
 
@@ -208,7 +208,7 @@ public final class ActivityFreezeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFreezeBinding((ConstraintLayout) rootView, CloseBut, Corect, CountOfD,
+      return new ActivityFreezeBinding((ConstraintLayout) rootView, CloseBut, Correct, CountOfD,
           CountOfU, DataEdit, baK, imageView13, imageView14, imageView18, imageView19, imageView22,
           imageView23, imageView26, imageView27, textView7);
     }

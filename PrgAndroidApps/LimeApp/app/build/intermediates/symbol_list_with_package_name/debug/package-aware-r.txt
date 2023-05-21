@@ -3142,6 +3142,9 @@ drawable cardconteiner
 drawable cardconteinerp
 drawable cardconteinerprise
 drawable cardconteinerprof
+drawable check_date
+drawable checkdate1
+drawable checkdate2
 drawable closebut
 drawable closetab
 drawable common_full_open_on_phone
@@ -3331,6 +3334,9 @@ drawable rectangle_none
 drawable regicon
 drawable spring_dot_background
 drawable spring_dot_stroke_background
+drawable status_1
+drawable status_2
+drawable status_3
 drawable subtract
 drawable tab_card
 drawable table
@@ -3358,7 +3364,7 @@ id ButM
 id CTRL
 id CloseBut
 id CloseButTab
-id Corect
+id Correct
 id CountOfD
 id CountOfU
 id CropOverlayView
@@ -3383,6 +3389,7 @@ id SHOW_PROGRESS
 id SYM
 id SatrtDate
 id Sname
+id StatusBut
 id TOP_END
 id TOP_START
 id UName

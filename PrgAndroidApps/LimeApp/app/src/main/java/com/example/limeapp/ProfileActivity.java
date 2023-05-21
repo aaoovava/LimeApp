@@ -168,7 +168,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     final ProgressDialog progressDialog = new ProgressDialog(this);
     progressDialog.setTitle("Set your profile");
-    progressDialog.setMessage("Pleas wait");
+    progressDialog.setMessage("Please wait");
     progressDialog.show();
 
     if (imageUri != null){
