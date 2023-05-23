@@ -1,7 +1,7 @@
 package com.example.limeapp;
 
 public class User {
-    String name, number, password, age, Aboniment_start_date, Aboniment_end_date, Aboniment_status, Group_t_countStart, Group_t_countEnd, image, freeze_days,freeze_date;
+    String name, number, password, age, Aboniment_start_date, Aboniment_end_date, Aboniment_status, Group_t_start_date, Group_t_end_date,Group_t_status,image, Afreeze_days,Gfreeze_days,Afreeze_date,Gfreeze_date;
 
     public String getName() {
         return name;
@@ -59,20 +59,28 @@ public class User {
         Aboniment_status = aboniment_status;
     }
 
-    public String getGroup_t_countStart() {
-        return Group_t_countStart;
+    public String getGroup_t_start_date() {
+        return Group_t_start_date;
     }
 
-    public void setGroup_t_countStart(String group_t_countStart) {
-        Group_t_countStart = group_t_countStart;
+    public void setGroup_t_start_date(String group_t_start_date) {
+        Group_t_start_date = group_t_start_date;
     }
 
-    public String getGroup_t_countEnd() {
-        return Group_t_countEnd;
+    public String getGroup_t_end_date() {
+        return Group_t_end_date;
     }
 
-    public void setGroup_t_countEnd(String group_t_countEnd) {
-        Group_t_countEnd = group_t_countEnd;
+    public void setGroup_t_end_date(String group_t_end_date) {
+        Group_t_end_date = group_t_end_date;
+    }
+
+    public String getGroup_t_status() {
+        return Group_t_status;
+    }
+
+    public void setGroup_t_status(String group_t_status) {
+        Group_t_status = group_t_status;
     }
 
     public String getImage() {
@@ -83,23 +91,39 @@ public class User {
         this.image = image;
     }
 
-    public String getFreeze_days() {
-        return freeze_days;
+    public String getAfreeze_days() {
+        return Afreeze_days;
     }
 
-    public void setFreeze_days(String freeze_days) {
-        this.freeze_days = freeze_days;
+    public void setAfreeze_days(String afreeze_days) {
+        Afreeze_days = afreeze_days;
     }
 
-    public String getFreeze_date() {
-        return freeze_date;
+    public String getGfreeze_days() {
+        return Gfreeze_days;
     }
 
-    public void setFreeze_date(String freeze_date) {
-        this.freeze_date = freeze_date;
+    public void setGfreeze_days(String gfreeze_days) {
+        Gfreeze_days = gfreeze_days;
     }
 
-    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_countStart, String group_t_countEnd, String image, String freeze_days, String freeze_date) {
+    public String getAfreeze_date() {
+        return Afreeze_date;
+    }
+
+    public void setAfreeze_date(String afreeze_date) {
+        Afreeze_date = afreeze_date;
+    }
+
+    public String getGfreeze_date() {
+        return Gfreeze_date;
+    }
+
+    public void setGfreeze_date(String gfreeze_date) {
+        Gfreeze_date = gfreeze_date;
+    }
+
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_start_date, String group_t_end_date, String group_t_status, String image, String afreeze_days, String gfreeze_days, String afreeze_date, String gfreeze_date) {
         this.name = name;
         this.number = number;
         this.password = password;
@@ -107,10 +131,13 @@ public class User {
         Aboniment_start_date = aboniment_start_date;
         Aboniment_end_date = aboniment_end_date;
         Aboniment_status = aboniment_status;
-        Group_t_countStart = group_t_countStart;
-        Group_t_countEnd = group_t_countEnd;
+        Group_t_start_date = group_t_start_date;
+        Group_t_end_date = group_t_end_date;
+        Group_t_status = group_t_status;
         this.image = image;
-        this.freeze_days = freeze_days;
-        this.freeze_date = freeze_date;
+        Afreeze_days = afreeze_days;
+        Gfreeze_days = gfreeze_days;
+        Afreeze_date = afreeze_date;
+        Gfreeze_date = gfreeze_date;
     }
 }

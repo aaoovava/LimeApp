@@ -70,8 +70,11 @@ public class MainScreenActivity extends AppCompatActivity {
                             String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
                             String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                             String PName = snapshot.child("aboniment_status").getValue().toString();
-                            String PfirstDate = snapshot.child("group_t_countStart").getValue().toString();
-                            String PLastDate = snapshot.child("group_t_countEnd").getValue().toString();
+                            String PfirstDate = snapshot.child("group_t_start_date").getValue().toString();
+                            String PLastDate = snapshot.child("group_t_end_date").getValue().toString();
+                            int Astatus = Integer.parseInt(snapshot.child("aboniment_status").getValue().toString());
+                            int Gstatus = Integer.parseInt(snapshot.child("group_t_status").getValue().toString());
+
 
                             try {
                                 String[] words = Spase(usName);
@@ -90,10 +93,10 @@ public class MainScreenActivity extends AppCompatActivity {
                             } catch (Exception e) {
                                 image = "https://firebasestorage.googleapis.com/v0/b/lime-pdb.appspot.com/o/user-profile-4255%201.png?alt=media&token=d95cec80-d997-4d83-8c6f-30c8e98f3edb";
                             }
-                            ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент", "Дата початку дії: ", "Дата закінчення дії: ", image, AfirstDate, ALastDate, getResources().getDrawable(R.drawable.freeze), getResources().getDrawable(R.drawable.status_1));
+                            ViePagerItem AviePagerItem = new ViePagerItem(Uname, Sname, "Абонемент", "Дата початку дії: ", "Дата закінчення дії: ", image, AfirstDate, ALastDate, getResources().getDrawable(R.drawable.freeze), getStatus(Astatus));
                             viePagerItemArrayList.add(AviePagerItem);
 
-                            ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname, "Групові заняття", "Кількість занять: ", "Використана кількість: ", image, PfirstDate, PLastDate, getResources().getDrawable(R.drawable.group_18), getResources().getDrawable(R.drawable.checkdate1));
+                            ViePagerItem PviePagerItem = new ViePagerItem(Uname, Sname, "Групові заняття", "Дата початку дії: ", "Дата закінчення дії: ", image, PfirstDate, PLastDate, getResources().getDrawable(R.drawable.group_18),getStatus(Gstatus));
 
                             viePagerItemArrayList.add(PviePagerItem);
 
@@ -157,6 +160,21 @@ public class MainScreenActivity extends AppCompatActivity {
     void toLogin(){
         Intent intent = new Intent(this, LogActivity.class);
         startActivity(intent);
+    }
+    Drawable getStatus (int status){
+        Drawable res = null;
+        switch (status){
+            case 1:
+                res = getResources().getDrawable(R.drawable.status_1);
+                break;
+            case 2:
+                res = getResources().getDrawable(R.drawable.status_2);
+                break;
+            case 3:
+                res = getResources().getDrawable(R.drawable.status_3);
+                break;
+        }
+        return res;
     }
 
 }
