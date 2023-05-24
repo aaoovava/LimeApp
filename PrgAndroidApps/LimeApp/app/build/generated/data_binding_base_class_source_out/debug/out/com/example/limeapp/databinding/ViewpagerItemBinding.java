@@ -23,7 +23,13 @@ public final class ViewpagerItemBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView But2;
+
+  @NonNull
   public final ImageView ButM;
+
+  @NonNull
+  public final TextView CountOfGT;
 
   @NonNull
   public final TextView EndDate;
@@ -55,13 +61,16 @@ public final class ViewpagerItemBinding implements ViewBinding {
   @NonNull
   public final TextView lastDate;
 
-  private ViewpagerItemBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView ButM,
-      @NonNull TextView EndDate, @NonNull TextView SatrtDate, @NonNull TextView Sname,
-      @NonNull ImageView StatusBut, @NonNull TextView UName, @NonNull AppCompatTextView abb,
-      @NonNull TextView firstDate, @NonNull ImageView imageView10,
-      @NonNull CircleImageView imageView20, @NonNull TextView lastDate) {
+  private ViewpagerItemBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView But2,
+      @NonNull ImageView ButM, @NonNull TextView CountOfGT, @NonNull TextView EndDate,
+      @NonNull TextView SatrtDate, @NonNull TextView Sname, @NonNull ImageView StatusBut,
+      @NonNull TextView UName, @NonNull AppCompatTextView abb, @NonNull TextView firstDate,
+      @NonNull ImageView imageView10, @NonNull CircleImageView imageView20,
+      @NonNull TextView lastDate) {
     this.rootView = rootView;
+    this.But2 = But2;
     this.ButM = ButM;
+    this.CountOfGT = CountOfGT;
     this.EndDate = EndDate;
     this.SatrtDate = SatrtDate;
     this.Sname = Sname;
@@ -101,9 +110,21 @@ public final class ViewpagerItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.But2;
+      ImageView But2 = ViewBindings.findChildViewById(rootView, id);
+      if (But2 == null) {
+        break missingId;
+      }
+
       id = R.id.ButM;
       ImageView ButM = ViewBindings.findChildViewById(rootView, id);
       if (ButM == null) {
+        break missingId;
+      }
+
+      id = R.id.CountOfGT;
+      TextView CountOfGT = ViewBindings.findChildViewById(rootView, id);
+      if (CountOfGT == null) {
         break missingId;
       }
 
@@ -167,8 +188,8 @@ public final class ViewpagerItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ViewpagerItemBinding((ConstraintLayout) rootView, ButM, EndDate, SatrtDate, Sname,
-          StatusBut, UName, abb, firstDate, imageView10, imageView20, lastDate);
+      return new ViewpagerItemBinding((ConstraintLayout) rootView, But2, ButM, CountOfGT, EndDate,
+          SatrtDate, Sname, StatusBut, UName, abb, firstDate, imageView10, imageView20, lastDate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

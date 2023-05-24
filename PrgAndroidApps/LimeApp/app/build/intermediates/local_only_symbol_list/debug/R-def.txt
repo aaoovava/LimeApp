@@ -123,11 +123,13 @@ font archivo_bold
 font maven_pro_bold
 font sd
 id Adapter
+id But2
 id ButM
 id CloseBut
 id CloseButTab
 id Correct
 id CountOfD
+id CountOfGT
 id CountOfU
 id DataEdit
 id DocButPrise
@@ -222,7 +224,8 @@ id textView6
 id textView7
 id textView8
 id viewPager
-layout activity_freeze
+layout activity_afreeze
+layout activity_gfreeze
 layout activity_table
 layout login_activity
 layout main_screen_activity

@@ -2,9 +2,6 @@ package com.example.limeapp;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
-import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatViewInflater;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -26,10 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -63,14 +55,22 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String AfirstDate = snapshot.child("aboniment_start_date").getValue().toString();
                 String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
-
+                int Astatus = Integer.parseInt(snapshot.child("aboniment_status").getValue().toString());
+                int Gstatus = Integer.parseInt(snapshot.child("group_t_status").getValue().toString());
                 viewHolder.ButM.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Boolean dateCheck = true;
+                        int dateCheck = Astatus;
                         int position = viewHolder.getAdapterPosition();
-                        if (AfirstDate.equals("немає"))dateCheck = false;
-                        handleButtonClick(position,dateCheck);
+                        handleButton1Click(position,Astatus);
+                    }
+                });
+                viewHolder.But2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        int dateCheck = Gstatus;
+                        int position = viewHolder.getAdapterPosition();
+                        handleButton2Click(position,dateCheck);
                     }
                 });
             }
@@ -98,6 +98,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         holder.EndDate.setText(pagerItem.EndDate);
         holder.ButM.setImageDrawable(pagerItem.ButImage);
         holder.StatusBut.setImageDrawable(pagerItem.StatusImage);
+        holder.But2.setImageDrawable(pagerItem.ButImage2);
+        holder.CountOfGT.setText(pagerItem.CountOfGT);
 
 
 
@@ -115,9 +117,13 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         TextView End_date;
         TextView UName;
         TextView SName;
+
+        TextView CountOfGT;
         ImageView ButM;
+        ImageView But2;
 
         ImageView StatusBut;
+
 
 
         TextView StartDate;
@@ -127,6 +133,8 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            But2 = itemView.findViewById(R.id.But2);
+            CountOfGT = itemView.findViewById(R.id.CountOfGT);
             StatusBut = itemView.findViewById(R.id.StatusBut);
             ButM = itemView.findViewById(R.id.ButM);
             circleImageView = itemView.findViewById(R.id.imageView20);
@@ -140,26 +148,51 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
         }
     }
-    public void handleButtonClick(int position,boolean DataCheck) {
-        if (DataCheck == true || position == 1){
+    public void handleButton1Click(int position,int DataCheck) {
+        if (DataCheck == 1 || position == 1){
         switch (position) {
             case 0:
-                toFreeze();
+                toAFreeze();
                 break;
             case 1:
                 toTable();
                 break;
 
-        }}else {
+        }}else if (DataCheck == 3) {
             Toast toast = Toast.makeText(context,"Відсутній абонемент",Toast.LENGTH_SHORT);
+            toast.show();
+        } else if (DataCheck == 2) {
+            Toast toast = Toast.makeText(context,"Абонемент вже заморожений",Toast.LENGTH_SHORT);
             toast.show();
         }
     }
-    public void toFreeze(){
-        Intent intent = new Intent(context, Freeze.class);
+    public void handleButton2Click(int position,int DataCheck) {
+        if (DataCheck == 1 ){
+            switch (position) {
+                case 0:
+                    break;
+                case 1:
+                    toGFreeze();
+                    break;
+
+            }}else if (DataCheck == 3){
+            Toast toast = Toast.makeText(context,"Відсутній абонемент",Toast.LENGTH_SHORT);
+            toast.show();
+        } else if (DataCheck == 2) {
+            Toast toast = Toast.makeText(context,"Абонемент вже заморожений",Toast.LENGTH_SHORT);
+            toast.show();
+        }
+    }
+    public void toAFreeze(){
+        Intent intent = new Intent(context, AFreeze.class);
         context.startActivity(intent);
+
     }public void toTable(){
         Intent intent = new Intent(context, table.class);
+        context.startActivity(intent);
+    }
+    public void toGFreeze(){
+        Intent intent = new Intent(context,GFreeze.class);
         context.startActivity(intent);
     }
 

@@ -3360,12 +3360,14 @@ id ALT
 id Adapter
 id BOTTOM_END
 id BOTTOM_START
+id But2
 id ButM
 id CTRL
 id CloseBut
 id CloseButTab
 id Correct
 id CountOfD
+id CountOfGT
 id CountOfU
 id CropOverlayView
 id CropProgressBar
@@ -4131,7 +4133,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_freeze
+layout activity_afreeze
+layout activity_gfreeze
 layout activity_table
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

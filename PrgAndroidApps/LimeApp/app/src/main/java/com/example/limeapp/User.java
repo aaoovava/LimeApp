@@ -1,7 +1,7 @@
 package com.example.limeapp;
 
 public class User {
-    String name, number, password, age, Aboniment_start_date, Aboniment_end_date, Aboniment_status, Group_t_start_date, Group_t_end_date,Group_t_status,image, Afreeze_days,Gfreeze_days,Afreeze_date,Gfreeze_date;
+    String name, number, password, age, Aboniment_start_date, Aboniment_end_date, Aboniment_status, Group_t_start_date, Group_t_end_date, Group_t_status, image, Afreeze_days, Gfreeze_days, Afreeze_date, Gfreeze_date, CountOfGT;
 
     public String getName() {
         return name;
@@ -123,7 +123,15 @@ public class User {
         Gfreeze_date = gfreeze_date;
     }
 
-    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_start_date, String group_t_end_date, String group_t_status, String image, String afreeze_days, String gfreeze_days, String afreeze_date, String gfreeze_date) {
+    public String getCountOfGT() {
+        return CountOfGT;
+    }
+
+    public void setCountOfGT(String countOfGT) {
+        CountOfGT = countOfGT;
+    }
+
+    public User(String name, String number, String password, String age, String aboniment_start_date, String aboniment_end_date, String aboniment_status, String group_t_start_date, String group_t_end_date, String group_t_status, String image, String afreeze_days, String gfreeze_days, String afreeze_date, String gfreeze_date, String countOfGT) {
         this.name = name;
         this.number = number;
         this.password = password;
@@ -139,5 +147,6 @@ public class User {
         Gfreeze_days = gfreeze_days;
         Afreeze_date = afreeze_date;
         Gfreeze_date = gfreeze_date;
+        CountOfGT = countOfGT;
     }
 }
