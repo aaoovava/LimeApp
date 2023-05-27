@@ -214,6 +214,7 @@ id progressBar4
 id saved_button
 id some_id
 id textButLog
+id textDate
 id textREg
 id textView
 id textView2

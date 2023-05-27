@@ -30,12 +30,6 @@ public final class ActivityTableBinding implements ViewBinding {
   public final ImageView imageView12;
 
   @NonNull
-  public final ImageView imageView14;
-
-  @NonNull
-  public final ImageView imageView23;
-
-  @NonNull
   public final ImageView imageView30;
 
   @NonNull
@@ -43,14 +37,11 @@ public final class ActivityTableBinding implements ViewBinding {
 
   private ActivityTableBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView CloseButTab,
       @NonNull HorizontalScrollView horizontalScrollView, @NonNull ImageView imageView12,
-      @NonNull ImageView imageView14, @NonNull ImageView imageView23,
       @NonNull ImageView imageView30, @NonNull ImageView imageView33) {
     this.rootView = rootView;
     this.CloseButTab = CloseButTab;
     this.horizontalScrollView = horizontalScrollView;
     this.imageView12 = imageView12;
-    this.imageView14 = imageView14;
-    this.imageView23 = imageView23;
     this.imageView30 = imageView30;
     this.imageView33 = imageView33;
   }
@@ -100,18 +91,6 @@ public final class ActivityTableBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView14;
-      ImageView imageView14 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView14 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView23;
-      ImageView imageView23 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView23 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView30;
       ImageView imageView30 = ViewBindings.findChildViewById(rootView, id);
       if (imageView30 == null) {
@@ -125,7 +104,7 @@ public final class ActivityTableBinding implements ViewBinding {
       }
 
       return new ActivityTableBinding((ConstraintLayout) rootView, CloseButTab,
-          horizontalScrollView, imageView12, imageView14, imageView23, imageView30, imageView33);
+          horizontalScrollView, imageView12, imageView30, imageView33);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

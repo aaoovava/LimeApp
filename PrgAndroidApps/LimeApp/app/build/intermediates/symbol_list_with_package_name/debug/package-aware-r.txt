@@ -3954,6 +3954,7 @@ id test
 id text
 id text2
 id textButLog
+id textDate
 id textEnd
 id textREg
 id textSpacerNoButtons

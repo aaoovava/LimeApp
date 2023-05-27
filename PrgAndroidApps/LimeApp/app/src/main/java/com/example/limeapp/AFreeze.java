@@ -41,6 +41,7 @@ public class AFreeze extends AppCompatActivity {
         TextView countOfD = findViewById(R.id.CountOfD);
         EditText dataEdit = findViewById(R.id.DataEdit);
         ImageView closeBut = findViewById(R.id.CloseBut);
+        TextView Resultdate = findViewById(R.id.textDate);
         ImageView backBut = findViewById(R.id.baсk);
         ImageView correctBut = findViewById(R.id.Correct);
 
@@ -104,6 +105,10 @@ public class AFreeze extends AppCompatActivity {
                                 dataEdit.setText("");
                             }}catch (Exception e){
 
+                        }
+                        try {
+                            Resultdate.setText("Заморозка до " + getDate1(Integer.parseInt(s.toString())));}catch (Exception e){
+                            Resultdate.setText("");
                         }
                         correctBut.setOnClickListener(new View.OnClickListener() {
                             @Override

@@ -36,11 +36,12 @@ public class GFreeze extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_afreeze);
+        setContentView(R.layout.activity_gfreeze);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         getWindow().setNavigationBarColor(getResources().getColor(R.color.green));
         TextView countOfInput = findViewById(R.id.CountOfU);
         TextView countOfD = findViewById(R.id.CountOfD);
+        TextView Resultdate = findViewById(R.id.textDate);
         EditText dataEdit = findViewById(R.id.DataEdit);
         ImageView closeBut = findViewById(R.id.CloseBut);
         ImageView backBut = findViewById(R.id.baсk);
@@ -106,6 +107,10 @@ public class GFreeze extends AppCompatActivity {
                                 dataEdit.setText("");
                             }}catch (Exception e){
 
+                        }
+                        try {
+                        Resultdate.setText("Заморозка до " + getDate1(Integer.parseInt(s.toString())));}catch (Exception e){
+                            Resultdate.setText("");
                         }
                         correctBut.setOnClickListener(new View.OnClickListener() {
                             @Override

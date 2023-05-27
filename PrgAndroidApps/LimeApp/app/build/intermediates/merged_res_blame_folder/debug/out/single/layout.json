@@ -1,42 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\activity_table.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_table.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/main_screen_activity.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/main_screen_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\main_screen_activity.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\main_screen_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/viewpager_item.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/viewpager_item.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\profile_activity.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\profile_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/login_activity.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/login_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\activity_gfreeze.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_gfreeze.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/price_activity.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/price_activity.xml"
     },
     {
-        "merged": "com.example.limeapp-mergeDebugResources-46:/layout/viewpager_item.xml",
-        "source": "com.example.limeapp-main-49:/layout/viewpager_item.xml"
+        "merged": "com.example.limeapp-mergeDebugResources-46:/layout/activity_gfreeze.xml",
+        "source": "com.example.limeapp-main-49:/layout/activity_gfreeze.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\activity_afreeze.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_afreeze.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/activity_table.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_table.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\reg_activity.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\reg_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/reg_activity.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/reg_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\viewpager_item.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\viewpager_item.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/activity_afreeze.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_afreeze.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\login_activity.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\login_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/activity_gfreeze.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_gfreeze.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-mergeDebugResources-46:\\layout\\price_activity.xml",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\price_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-mergeDebugResources-46:/layout/profile_activity.xml",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/profile_activity.xml"
     }
 ]
