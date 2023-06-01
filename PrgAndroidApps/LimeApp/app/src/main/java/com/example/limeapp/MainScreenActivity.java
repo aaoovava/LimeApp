@@ -78,7 +78,7 @@ public class MainScreenActivity extends AppCompatActivity {
                             String PfirstDate = snapshot.child("group_t_start_date").getValue().toString();
                             String PLastDate = snapshot.child("group_t_end_date").getValue().toString();
                             String AFreezeDate = snapshot.child("afreeze_date").getValue().toString();
-                            String GFreezeDate = snapshot.child("group_t_end_date").getValue().toString();
+                            String GFreezeDate = snapshot.child("gfreeze_date").getValue().toString();
                             int Astatus = Integer.parseInt(snapshot.child("aboniment_status").getValue().toString());
                             int Gstatus = Integer.parseInt(snapshot.child("group_t_status").getValue().toString());
 

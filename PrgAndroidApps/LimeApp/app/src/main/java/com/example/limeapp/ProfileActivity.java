@@ -205,6 +205,8 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+try {
+
 
             CropImage.ActivityResult result = CropImage.getActivityResult(data);
             imageUri = result.getUri();
@@ -213,5 +215,8 @@ public class ProfileActivity extends AppCompatActivity {
 
             Toast.makeText(ProfileActivity.this,"Помилка",Toast.LENGTH_LONG);
 
+    }catch (Exception e){
+
+}
     }
 }

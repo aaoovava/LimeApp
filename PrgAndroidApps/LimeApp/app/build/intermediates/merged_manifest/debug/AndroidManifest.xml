@@ -45,6 +45,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.LimeApp" >
         <activity
+            android:name="com.example.limeapp.GfreezeDrop"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.limeapp.AfreezeDrop"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.example.limeapp.GFreeze"
             android:exported="false" />
         <activity

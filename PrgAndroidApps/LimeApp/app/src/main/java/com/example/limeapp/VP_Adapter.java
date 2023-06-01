@@ -1,10 +1,13 @@
 package com.example.limeapp;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -57,12 +60,14 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                 String ALastDate = snapshot.child("aboniment_end_date").getValue().toString();
                 int Astatus = Integer.parseInt(snapshot.child("aboniment_status").getValue().toString());
                 int Gstatus = Integer.parseInt(snapshot.child("group_t_status").getValue().toString());
+                int Acount = Integer.parseInt(snapshot.child("afreeze_days").getValue().toString());
+                int Gcount = Integer.parseInt(snapshot.child("gfreeze_days").getValue().toString());
                 viewHolder.ButM.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         int dateCheck = Astatus;
                         int position = viewHolder.getAdapterPosition();
-                        handleButton1Click(position,Astatus);
+                        handleButton1Click(position,Astatus,Acount);
                     }
                 });
                 viewHolder.But2.setOnClickListener(new View.OnClickListener() {
@@ -70,7 +75,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
                     public void onClick(View v) {
                         int dateCheck = Gstatus;
                         int position = viewHolder.getAdapterPosition();
-                        handleButton2Click(position,dateCheck);
+                        handleButton2Click(position,dateCheck,Gcount);
                     }
                 });
             }
@@ -148,26 +153,44 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
 
         }
     }
-    public void handleButton1Click(int position,int DataCheck) {
+    public void handleButton1Click(int position,int DataCheck,int Count) {
+        if (Count != 0){
         if (DataCheck == 1 || position == 1){
         switch (position) {
             case 0:
                 toAFreeze();
                 break;
             case 1:
-                toTable();
+                Dialog dialog = new Dialog(context);
+                dialog.setContentView(R.layout.activity_table);
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+                ImageView closeButton = dialog.findViewById(R.id.CloseButTab);
+                closeButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+// Отображение диалогового окна
+                dialog.show();
                 break;
 
         }}else if (DataCheck == 3) {
             Toast toast = Toast.makeText(context,"Відсутній абонемент",Toast.LENGTH_SHORT);
             toast.show();
         } else if (DataCheck == 2) {
-            Toast toast = Toast.makeText(context,"Абонемент вже заморожений",Toast.LENGTH_SHORT);
+            toAFreezeDrop();
+        }else if (Count == 0) {
+            Toast toast = Toast.makeText(context,"Функція заморозки вичерпана",Toast.LENGTH_SHORT);
+            toast.show();
+        }}else {
+            Toast toast = Toast.makeText(context,"Функція заморозки вичерпана",Toast.LENGTH_SHORT);
             toast.show();
         }
     }
-    public void handleButton2Click(int position,int DataCheck) {
-        if (DataCheck == 1 ){
+    public void handleButton2Click(int position,int DataCheck,int Count) {
+        if (DataCheck == 1 && Count != 0){
             switch (position) {
                 case 0:
                     break;
@@ -179,7 +202,9 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             Toast toast = Toast.makeText(context,"Відсутній абонемент",Toast.LENGTH_SHORT);
             toast.show();
         } else if (DataCheck == 2) {
-            Toast toast = Toast.makeText(context,"Абонемент вже заморожений",Toast.LENGTH_SHORT);
+            toGFreezeDrop();
+        } else if (Count == 0) {
+            Toast toast = Toast.makeText(context,"Функція заморозки вичерпана",Toast.LENGTH_SHORT);
             toast.show();
         }
     }
@@ -193,6 +218,14 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
     }
     public void toGFreeze(){
         Intent intent = new Intent(context,GFreeze.class);
+        context.startActivity(intent);
+    }
+    public void toAFreezeDrop(){
+        Intent intent = new Intent(context, AfreezeDrop.class);
+        context.startActivity(intent);
+    }
+    public void toGFreezeDrop(){
+        Intent intent = new Intent(context, GfreezeDrop.class);
         context.startActivity(intent);
     }
 

@@ -21,7 +21,6 @@ public class table extends AppCompatActivity {
         closeBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toMain();
             }
         });
 

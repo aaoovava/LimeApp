@@ -58,6 +58,7 @@ drawable group_18
 drawable group_19
 drawable group_33
 drawable group_42
+drawable group_45
 drawable group_8
 drawable group_9
 drawable ic_launcher_background
@@ -169,6 +170,7 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
+id imageView25
 id imageView26
 id imageView27
 id imageView28
@@ -217,6 +219,8 @@ id textButLog
 id textDate
 id textREg
 id textView
+id textView10
+id textView11
 id textView2
 id textView3
 id textView4
@@ -224,9 +228,12 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id viewPager
 layout activity_afreeze
+layout activity_afreeze_drop
 layout activity_gfreeze
+layout activity_gfreeze_drop
 layout activity_table
 layout login_activity
 layout main_screen_activity

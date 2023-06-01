@@ -3200,6 +3200,7 @@ drawable group_18
 drawable group_19
 drawable group_33
 drawable group_42
+drawable group_45
 drawable group_8
 drawable group_9
 drawable ic_arrow_back_black_24
@@ -3664,6 +3665,7 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
+id imageView25
 id imageView26
 id imageView27
 id imageView28
@@ -3962,6 +3964,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
+id textView11
 id textView2
 id textView3
 id textView4
@@ -3969,6 +3973,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -4135,7 +4140,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_afreeze
+layout activity_afreeze_drop
 layout activity_gfreeze
+layout activity_gfreeze_drop
 layout activity_table
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
