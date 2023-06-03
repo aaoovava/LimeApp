@@ -154,7 +154,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
         }
     }
     public void handleButton1Click(int position,int DataCheck,int Count) {
-        if (Count != 0){
+        if (Count != 0 || position == 1){
         if (DataCheck == 1 || position == 1){
         switch (position) {
             case 0:
@@ -181,7 +181,7 @@ public class VP_Adapter extends RecyclerView.Adapter<VP_Adapter.ViewHolder> {
             toast.show();
         } else if (DataCheck == 2) {
             toAFreezeDrop();
-        }else if (Count == 0) {
+        }else if (Count == 0 && position == 0) {
             Toast toast = Toast.makeText(context,"Функція заморозки вичерпана",Toast.LENGTH_SHORT);
             toast.show();
         }}else {

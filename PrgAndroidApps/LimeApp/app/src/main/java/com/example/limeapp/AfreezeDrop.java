@@ -26,7 +26,9 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 
 public class AfreezeDrop extends AppCompatActivity {
 
@@ -44,6 +46,7 @@ public class AfreezeDrop extends AppCompatActivity {
         String userId = user.getUid();
 
         ImageView backBut = findViewById(R.id.baсk);
+        ImageView correctBut = findViewById(R.id.Correct);
         TextView date = findViewById(R.id.textView9);
         TextView days = findViewById(R.id.textView11);
 
@@ -65,6 +68,19 @@ public class AfreezeDrop extends AppCompatActivity {
                     a = "Залишився: ";
                 }
                 days.setText( a + daysDiff + " дн");
+                correctBut.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        String LastDate = (snapshot.child("aboniment_end_date").getValue().toString());
+
+                        HashMap<String,Object> j  = new HashMap<>();
+                        j.put("aboniment_end_date",getDate(LastDate,-dataDifInDaysLocal(Date)));
+                        j.put("aboniment_status","1");
+                        j.put("afreeze_days","0");
+                        users.child(auth.getCurrentUser().getUid()).updateChildren(j);
+                        toMain();
+                    }
+                });
             }
 
             @Override
@@ -72,6 +88,7 @@ public class AfreezeDrop extends AppCompatActivity {
 
             }
         });
+
     }
     public void toMain(){
         Intent intent = new Intent(this,MainScreenActivity.class);
@@ -97,5 +114,27 @@ public class AfreezeDrop extends AppCompatActivity {
         LocalDate date2 = ALastDateD.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
         long daysDiff = ChronoUnit.DAYS.between(date1, date2);
         return daysDiff;
+    }
+    public String getDate(String strdate,long daysCount){
+        String dateString = strdate;
+        String res = "";
+        Date date = new Date();
+        Date newDate = new Date();
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        try {
+            date = format.parse(dateString);
+
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(date);
+            calendar.add(Calendar.DAY_OF_MONTH, (int) daysCount);
+
+            newDate = calendar.getTime();
+            res = format.format(newDate);
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return res;
+
     }
 }
