@@ -1,562 +1,634 @@
 [
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable________________________.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\_______________________.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/xml_backup_rules.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_googlepay_button_content.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\googlepay_button_content.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_extrainfo.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/extrainfo.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_rectangle_7oki.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\rectangle_7oki.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_activity_afreeze.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_afreeze.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xxhdpi_polo_shirt_image.jpg.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xxhdpi\\polo_shirt_image.jpg"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_activity_gfreeze.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_gfreeze.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_munday.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\munday.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_googlepay_button_overlay.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/googlepay_button_overlay.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_appiconmainscreen.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\appiconmainscreen.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_checkdate1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/checkdate1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_mainfreezebut.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\mainfreezebut.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_passimg.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/passimg.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_id_card.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\id_card.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/font_amiko_bold.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/font/amiko_bold.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_ellipse_1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\ellipse_1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_fon_sh.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/fon_sh.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_reg_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/reg_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-hdpi_googlepay_button_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-hdpi\\googlepay_button_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_activity_afreeze_drop.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_afreeze_drop.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_day2.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/day2.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_viewpager_item.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\viewpager_item.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_plus_svgrepo_com_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/plus_svgrepo_com_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_cardconteiner.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\cardconteiner.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-v21_googlepay_button_background.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-v21/googlepay_button_background.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp3.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp3.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmst4.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmst4.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_cardconteiner.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/cardconteiner.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_cardconteinerprof.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\cardconteinerprof.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_dokon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/dokon.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_r_table.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\r_table.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangle_13.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangle_13.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp6.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp6.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_plantxt.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/plantxt.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_ellipse_3.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\ellipse_3.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_regicon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/regicon.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_profile_img.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\profile_img.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_45.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_45.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-v21_googlepay_button_background.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-v21\\googlepay_button_background.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_vector.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/vector.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_45.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_45.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_checkdate2.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/checkdate2.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\font_archivo_bold.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\font\\archivo_bold.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/font_maven_pro_bold.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/font/maven_pro_bold.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_rectangle_none.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\rectangle_none.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_logout_svgrepo_com.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/logout_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_cardconteinerprise.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\cardconteinerprise.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_activity_table.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_table.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangle_7.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangle_7.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xhdpi_googlepay_button_no_shadow_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xhdpi\\googlepay_button_no_shadow_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_table.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/table.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\xml\\data_extraction_rules.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmst2.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmst2.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_image_3.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/image_3.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_tablesr.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\tablesr.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_contaktt2.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/contaktt2.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\font_abeezee.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\font\\abeezee.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xxhdpi_googlepay_button_no_shadow_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xxhdpi/googlepay_button_no_shadow_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_subtract.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\subtract.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_price_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/price_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_auntofa.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\auntofa.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp4.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp4.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_doko.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\doko.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_login_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/login_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_butons_st.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\butons_st.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_profileonid.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/profileonid.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\font_maven_pro_bold.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\font\\maven_pro_bold.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-v21_googlepay_button_no_shadow_background.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-v21/googlepay_button_no_shadow_background.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_table.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\table.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_freeze.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/freeze.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_status_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/status_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_mainpad.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\mainpad.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_grouplogotxt.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/grouplogotxt.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_frame_5.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\frame_5.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_calendar.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/calendar.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_fon_sh.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\fon_sh.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_15.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_15.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-v21_googlepay_button_no_shadow_background.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-v21\\googlepay_button_no_shadow_background.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_activity_afreeze_drop.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_afreeze_drop.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_rectangle_13.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\rectangle_13.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xxhdpi_googlepay_button_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xxhdpi/googlepay_button_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_status_1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\status_1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_profile_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/profile_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_checkdate2.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\checkdate2.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_doko.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/doko.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmst6.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmst6.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-hdpi_googlepay_button_no_shadow_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-hdpi/googlepay_button_no_shadow_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_freezeicon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/freezeicon.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\font_amiko_bold.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\font\\amiko_bold.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_status_2.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/status_2.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_calendar.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\calendar.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_facebook_1_svgrepo_com_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/facebook_1_svgrepo_com_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_googlepay_button_overlay.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\googlepay_button_overlay.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_main_screen_activity.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/main_screen_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xxhdpi_googlepay_button_no_shadow_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xxhdpi\\googlepay_button_no_shadow_background_image.9.png"
+        "merged": "com.example.limeapp-merged_res-47:/layout_activity_main_info.xml.flat",
+        "source": "com.example.limeapp-main-49:/layout/activity_main_info.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_19.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_19.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_subtract.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/subtract.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp5.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp5.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xxxhdpi_googlepay_button_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xxxhdpi/googlepay_button_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_day2.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\day2.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_auntofa.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/auntofa.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_activity_gfreeze_drop.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_gfreeze_drop.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangle_11.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangle_11.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_logolime.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\logolime.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmst3.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmst3.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_instacontakt.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/instacontakt.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_profof.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\profof.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_9.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_9.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-hdpi_googlepay_button_no_shadow_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-hdpi\\googlepay_button_no_shadow_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_logolime.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/logolime.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_rectangle_7.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\rectangle_7.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_closetab.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/closetab.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmst7.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmst7.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_19.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_19.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\font_sd.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\font\\sd.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectanglecontaks.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectanglecontaks.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_activity_gfreeze.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_gfreeze.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/font_alef_bold.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/font/alef_bold.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_activity_afreeze.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\activity_afreeze.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xxxhdpi_googlepay_button_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xxxhdpi\\googlepay_button_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_profof.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/profof.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_freeze.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\freeze.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_42.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_42.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangllogoback.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangllogoback.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_icon.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\icon.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_buton_prof.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/buton_prof.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_regicon.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\regicon.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmst7.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmst7.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_logout_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\logout_svgrepo_com.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_prise.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/prise.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangle_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangle_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp2.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp2.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_appiconmainscreen.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/appiconmainscreen.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_9.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_9.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_butons_st.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/butons_st.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_profile_img.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/profile_img.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_33.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_33.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_activity_main_info.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_main_info.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_check_date.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\check_date.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_ellipse_3.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/ellipse_3.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_status_3.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\status_3.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_r_table.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/r_table.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_closetab.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\closetab.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_buton_prof.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\buton_prof.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_cardconteinerprise.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/cardconteinerprise.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_infocard.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/infocard.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_warning_triangular_sketched_sign_svgrepo_com_1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\warning_triangular_sketched_sign_svgrepo_com_1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_33.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_33.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_cardconteinerprof.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/cardconteinerprof.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_main_screen_activity.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\main_screen_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangle_7oki.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangle_7oki.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_login_guy.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\login_guy.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_googlepay_button_content.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/googlepay_button_content.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_rectangle_1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\rectangle_1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_phone_icon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/phone_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-mdpi_googlepay_button_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-mdpi\\googlepay_button_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_activity_gfreeze_drop.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_gfreeze_drop.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_cardconttentinfo.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/cardconttentinfo.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_tab_card.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\tab_card.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_warning_triangular_sketched_sign_svgrepo_com_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/warning_triangular_sketched_sign_svgrepo_com_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_10.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_10.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_munday.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/munday.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_lime_svgrepo_com.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\lime_svgrepo_com.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable________________________.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/_______________________.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\xml\\backup_rules.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_planoftime.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/planoftime.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_42.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_42.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pms________________________.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pms________________________.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_plus_svgrepo_com_1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\plus_svgrepo_com_1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmst4.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmst4.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xhdpi_googlepay_button_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xhdpi\\googlepay_button_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.limeapp-merged_res-47:/layout_activity_gfreeze_drop.xml.flat",
-        "source": "com.example.limeapp-main-49:/layout/activity_gfreeze_drop.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp6.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp6.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_user_profile_4255_1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\user_profile_4255_1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_cpntaktt1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/cpntaktt1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_18.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_18.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_____________________.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\____________________.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_activity_table.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/activity_table.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_price_activity.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\price_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_user_profile_4255_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/user_profile_4255_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_login_activity.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\login_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_rectangle_none.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/rectangle_none.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_date_edit.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\date_edit.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-hdpi_googlepay_button_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-hdpi/googlepay_button_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_8.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_8.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_padge.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/padge.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp3.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp3.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_text_edit.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/text_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_padge.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\padge.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_buy_with_googlepay_button_content.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/buy_with_googlepay_button_content.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_phone_icon.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\phone_icon.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-mdpi_googlepay_button_no_shadow_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-mdpi/googlepay_button_no_shadow_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmst5.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmst5.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_tab_card.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/tab_card.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_prise.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\prise.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_intersect.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/intersect.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_status_2.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\status_2.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_____________________.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/____________________.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_cardconteinerp.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\cardconteinerp.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_facebookcontakt.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/facebookcontakt.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_checkdate1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\checkdate1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xhdpi_googlepay_button_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xhdpi/googlepay_button_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_profile_activity.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\profile_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_ellipse_1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/ellipse_1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp7.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp7.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp7.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp7.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-mdpi_googlepay_button_no_shadow_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-mdpi\\googlepay_button_no_shadow_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\layout_reg_activity.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\layout\\reg_activity.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xxhdpi_polo_shirt_image.jpg.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xxhdpi/polo_shirt_image.jpg"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp4.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp4.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_logolime1.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/logolime1.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_vector.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\vector.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmst5.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmst5.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmst2.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmst2.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_frame_5.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/frame_5.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xxhdpi_googlepay_button_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xxhdpi\\googlepay_button_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_mainfreezebut.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/mainfreezebut.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_dokon.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\dokon.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp5.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp5.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_intersect.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\intersect.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xhdpi_googlepay_button_no_shadow_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xhdpi/googlepay_button_no_shadow_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_freezeicon.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\freezeicon.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_46.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_46.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_buy_with_googlepay_button_content.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\buy_with_googlepay_button_content.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_contaktt3.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/contaktt3.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_logolime1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\logolime1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_mainpad.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/mainpad.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pms________________________.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pms________________________.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_pmsp1.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\pmsp1.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmst3.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmst3.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_15.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_15.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_closebut.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/closebut.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable-xxxhdpi_googlepay_button_no_shadow_background_image.9.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable-xxxhdpi\\googlepay_button_no_shadow_background_image.9.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_logo.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\logo.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmst6.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmst6.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\font_alef_bold.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\font\\alef_bold.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_tablesr.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/tablesr.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_closebut.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\closebut.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_passimg.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\passimg.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-mdpi_googlepay_button_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-mdpi/googlepay_button_background_image.9.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_text_edit.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\text_edit.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_map_pin_svgrepo_com.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/map_pin_svgrepo_com.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_profileonid.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\profileonid.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_cardconteinerp.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/cardconteinerp.png"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_rectangle_11.png.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\rectangle_11.png"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_logo.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/logo.xml"
     },
     {
-        "merged": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-merged_res-47:\\drawable_group_18.xml.flat",
-        "source": "C:\\Users\\Wasil\\.gradle\\daemon\\7.5\\com.example.limeapp-main-49:\\drawable\\group_18.xml"
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_icon.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/icon.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_check_date.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/check_date.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_status_3.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/status_3.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable-xxxhdpi_googlepay_button_no_shadow_background_image.9.png.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable-xxxhdpi/googlepay_button_no_shadow_background_image.9.png"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/font_abeezee.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/font/abeezee.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_date_edit.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/date_edit.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_pmsp2.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/pmsp2.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_id_card.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/id_card.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/font_archivo_bold.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/font/archivo_bold.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_10.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_10.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_login_guy.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/login_guy.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_group_8.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/group_8.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/layout_viewpager_item.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/layout/viewpager_item.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/drawable_lime_svgrepo_com.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/drawable/lime_svgrepo_com.xml"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-merged_res-47:/font_sd.xml.flat",
+        "source": "/Users/wasiliylolita/.gradle/daemon/7.5/com.example.limeapp-main-49:/font/sd.xml"
     }
 ]

@@ -3142,6 +3142,7 @@ drawable cardconteiner
 drawable cardconteinerp
 drawable cardconteinerprise
 drawable cardconteinerprof
+drawable cardconttentinfo
 drawable check_date
 drawable checkdate1
 drawable checkdate2
@@ -3166,6 +3167,9 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable contaktt2
+drawable contaktt3
+drawable cpntaktt1
 drawable crop_image_menu_flip
 drawable crop_image_menu_rotate_left
 drawable crop_image_menu_rotate_right
@@ -3181,6 +3185,9 @@ drawable dokon
 drawable dot_background
 drawable ellipse_1
 drawable ellipse_3
+drawable extrainfo
+drawable facebook_1_svgrepo_com_1
+drawable facebookcontakt
 drawable fon_sh
 drawable frame_5
 drawable freeze
@@ -3201,8 +3208,10 @@ drawable group_19
 drawable group_33
 drawable group_42
 drawable group_45
+drawable group_46
 drawable group_8
 drawable group_9
+drawable grouplogotxt
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3219,6 +3228,9 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable icon
 drawable id_card
+drawable image_3
+drawable infocard
+drawable instacontakt
 drawable intersect
 drawable isb_indicator_rounded_corners
 drawable isb_indicator_square_corners
@@ -3241,6 +3253,7 @@ drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
 drawable mainfreezebut
 drawable mainpad
+drawable map_pin_svgrepo_com
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3305,6 +3318,8 @@ drawable notify_panel_notification_icon_bg
 drawable padge
 drawable passimg
 drawable phone_icon
+drawable planoftime
+drawable plantxt
 drawable plus_svgrepo_com_1
 drawable pms________________________
 drawable pmsp1
@@ -3332,6 +3347,8 @@ drawable rectangle_13
 drawable rectangle_7
 drawable rectangle_7oki
 drawable rectangle_none
+drawable rectanglecontaks
+drawable rectangllogoback
 drawable regicon
 drawable spring_dot_background
 drawable spring_dot_stroke_background
@@ -3614,6 +3631,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id floatingActionButton
 id forever
 id fragment_container_view_tag
 id frost
@@ -3669,8 +3687,10 @@ id imageView25
 id imageView26
 id imageView27
 id imageView28
+id imageView29
 id imageView3
 id imageView30
+id imageView31
 id imageView32
 id imageView33
 id imageView34
@@ -3678,8 +3698,19 @@ id imageView35
 id imageView36
 id imageView37
 id imageView38
+id imageView39
 id imageView4
+id imageView42
+id imageView43
+id imageView44
+id imageView45
+id imageView46
+id imageView47
+id imageView48
+id imageView49
 id imageView5
+id imageView50
+id imageView51
 id imageView6
 id imageView7
 id imageView8
@@ -3865,6 +3896,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -4143,6 +4175,7 @@ layout activity_afreeze
 layout activity_afreeze_drop
 layout activity_gfreeze
 layout activity_gfreeze_drop
+layout activity_main_info
 layout activity_table
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

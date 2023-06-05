@@ -126,7 +126,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView18"
         app:layout_constraintEnd_toEndOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="@+id/imageView18"
-        app:srcCompat="@drawable/group_45" />
+        app:srcCompat="@drawable/group_46" />
 
     <TextView
         android:id="@+id/textView9"

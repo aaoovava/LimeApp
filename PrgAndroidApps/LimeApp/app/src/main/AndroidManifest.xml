@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,9 +17,13 @@
         android:theme="@style/Theme.LimeApp"
         tools:targetApi="31">
         <activity
-            android:name=".GfreezeDrop"
+            android:name=".MainInfo"
             android:exported="false"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GfreezeDrop"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".AfreezeDrop"
             android:exported="false"

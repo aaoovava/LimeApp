@@ -1,7 +1,10 @@
 package com.example.limeapp;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -26,12 +30,7 @@ import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 
@@ -51,6 +50,8 @@ public class MainScreenActivity extends AppCompatActivity {
         SpringDotsIndicator dotsIndicator = findViewById(R.id.Adapter);
         ProgressBar progressBar4 = findViewById(R.id.progressBar4);
         ImageView priseBut = findViewById(R.id.priseBut);
+        ImageView MainInfoBut1 = findViewById(R.id.imageView23);
+        ImageView MainInfoBut2 = findViewById(R.id.imageView14);
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
@@ -65,6 +66,111 @@ public class MainScreenActivity extends AppCompatActivity {
                     toLogin();
                 } else {
                     progressBar4.setVisibility(View.VISIBLE);
+                    MainInfoBut1.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Dialog dialog = new Dialog(MainScreenActivity.this);
+                            dialog.setContentView(R.layout.activity_main_info);
+                            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+                            ImageView closeButton = dialog.findViewById(R.id.imageView39);
+                            dialog.show();
+
+                            ImageView mapBut = dialog.findViewById(R.id.imageView43);
+                            ImageView instBut = dialog.findViewById(R.id.imageView50);
+                            ImageView faceBut = dialog.findViewById(R.id.imageView51);
+                            FloatingActionButton floatingActionButton = dialog.findViewById(R.id.floatingActionButton);
+
+                            faceBut.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.facebook.com/profile.php?id=100090329526191"));
+                                    startActivity(browserIntent);
+                                }
+                            });
+                            instBut.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://instagram.com/lime_myrhorod?igshid=NTc4MTIwNjQ2YQ=="));
+                                    startActivity(browserIntent);
+                                }
+                            });
+                            floatingActionButton.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    String dial = "tel:" + "0953836588";
+                                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                                }
+                            });
+                            mapBut.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.app.goo.gl/WFztc1xyYPfoGPHr6"));
+                                    startActivity(browserIntent);
+                                }
+                            });
+
+
+                            closeButton.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    dialog.dismiss();
+                                }
+                            });
+                        }
+                    });
+                    MainInfoBut2.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Dialog dialog = new Dialog(MainScreenActivity.this);
+                            dialog.setContentView(R.layout.activity_main_info);
+                            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+                            ImageView closeButton = dialog.findViewById(R.id.imageView39);
+                            dialog.show();
+
+                            ImageView mapBut = dialog.findViewById(R.id.imageView43);
+                            ImageView instBut = dialog.findViewById(R.id.imageView50);
+                            ImageView faceBut = dialog.findViewById(R.id.imageView51);
+                            FloatingActionButton floatingActionButton = dialog.findViewById(R.id.floatingActionButton);
+
+                            faceBut.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.facebook.com/profile.php?id=100090329526191"));
+                                    startActivity(browserIntent);
+                                }
+                            });
+                            instBut.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://instagram.com/lime_myrhorod?igshid=NTc4MTIwNjQ2YQ=="));
+                                    startActivity(browserIntent);
+                                }
+                            });
+                            floatingActionButton.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    String dial = "tel:" + "0953836588";
+                                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                                }
+                            });
+                            mapBut.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.app.goo.gl/WFztc1xyYPfoGPHr6"));
+                                    startActivity(browserIntent);
+                                }
+                            });
+
+
+                            closeButton.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    dialog.dismiss();
+                                }
+                            });
+                        }
+                    });
+
                     int data;
                     users.child(userId).addValueEventListener(new ValueEventListener() {
                         @RequiresApi(api = Build.VERSION_CODES.O)
@@ -210,6 +316,7 @@ public class MainScreenActivity extends AppCompatActivity {
             }catch (Exception e){
                 toLogin();
             }
+
 
     }
     public String[] Spase(String txt){

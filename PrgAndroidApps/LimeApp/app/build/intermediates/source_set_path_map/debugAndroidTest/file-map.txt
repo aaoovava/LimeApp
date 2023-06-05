@@ -1,7 +1,7 @@
-com.example.limeapp.test.app-core-1.5.0-0 C:\Users\Wasil\.gradle\caches\transforms-3\339ed7347c18592e797670dd99e0f98a\transformed\core-1.5.0\res
-com.example.limeapp.test.app-annotation-experimental-1.3.0-1 C:\Users\Wasil\.gradle\caches\transforms-3\eb81fb53378604cc0225f33f394c7ec0\transformed\annotation-experimental-1.3.0\res
-com.example.limeapp.test.app-androidTest-2 C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\build\generated\res\resValues\androidTest\debug
-com.example.limeapp.test.app-androidTest-3 C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\build\generated\res\rs\androidTest\debug
-com.example.limeapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.limeapp.test.app-mergeDebugAndroidTestResources-5 C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.limeapp.test.app-merged_res-6 C:\Users\Wasil\Documents\at\LimeApp\LimeApp\PrgAndroidApps\LimeApp\app\build\intermediates\merged_res\debugAndroidTest
+com.example.limeapp.test.app-jetified-annotation-experimental-1.3.0-0 /Users/wasiliylolita/.gradle/caches/transforms-3/8e7d75848ec928ad180d922d17932652/transformed/jetified-annotation-experimental-1.3.0/res
+com.example.limeapp.test.app-jetified-core-1.5.0-1 /Users/wasiliylolita/.gradle/caches/transforms-3/d983876b37e5c0657784b5c9f36bfa5b/transformed/jetified-core-1.5.0/res
+com.example.limeapp.test.app-androidTest-2 /Users/wasiliylolita/Documents/LimeApp/LimeApp/PrgAndroidApps/LimeApp/app/build/generated/res/resValues/androidTest/debug
+com.example.limeapp.test.app-androidTest-3 /Users/wasiliylolita/Documents/LimeApp/LimeApp/PrgAndroidApps/LimeApp/app/build/generated/res/rs/androidTest/debug
+com.example.limeapp.test.app-mergeDebugAndroidTestResources-4 /Users/wasiliylolita/Documents/LimeApp/LimeApp/PrgAndroidApps/LimeApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.limeapp.test.app-mergeDebugAndroidTestResources-5 /Users/wasiliylolita/Documents/LimeApp/LimeApp/PrgAndroidApps/LimeApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.limeapp.test.app-merged_res-6 /Users/wasiliylolita/Documents/LimeApp/LimeApp/PrgAndroidApps/LimeApp/app/build/intermediates/merged_res/debugAndroidTest

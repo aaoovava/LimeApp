@@ -9,6 +9,7 @@
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -44,6 +45,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.LimeApp" >
+        <activity
+            android:name="com.example.limeapp.MainInfo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.limeapp.GfreezeDrop"
             android:exported="false"
