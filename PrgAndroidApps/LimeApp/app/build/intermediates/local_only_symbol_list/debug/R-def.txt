@@ -131,6 +131,7 @@ drawable tab_card
 drawable table
 drawable tablesr
 drawable text_edit
+drawable three_dots_svgrepo_com
 drawable user_profile_4255_1
 drawable vector
 drawable warning_triangular_sketched_sign_svgrepo_com_1
@@ -169,6 +170,7 @@ id editName
 id editTextTextPersonName2
 id firstDate
 id floatingActionButton
+id floatingActionButton2
 id horizontalScrollView
 id icon
 id imageView

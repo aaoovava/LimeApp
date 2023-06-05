@@ -8,6 +8,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
@@ -79,6 +81,36 @@ public class MainScreenActivity extends AppCompatActivity {
                             ImageView instBut = dialog.findViewById(R.id.imageView50);
                             ImageView faceBut = dialog.findViewById(R.id.imageView51);
                             FloatingActionButton floatingActionButton = dialog.findViewById(R.id.floatingActionButton);
+                            FloatingActionButton floatingActionButton2 = dialog.findViewById(R.id.floatingActionButton2);
+                            ImageView num1 = dialog.findViewById(R.id.imageView48);
+                            ImageView num2 = dialog.findViewById(R.id.imageView49);
+                            num2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    String dial = "tel:" + "0953836588";
+                                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                                }
+                            });
+                            num1.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    String dial = "tel:" + "0535556530";
+                                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                                }
+                            });
+                            floatingActionButton2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    floatingActionButton2.setVisibility(View.INVISIBLE);
+                                    instBut.setVisibility(View.VISIBLE);
+                                    faceBut.setVisibility(View.VISIBLE);
+                                    Animation fadeInAnimation = AnimationUtils.loadAnimation(MainScreenActivity.this, android.R.anim.fade_in);
+                                    Animation fadeOutAnimation1 = AnimationUtils.loadAnimation(MainScreenActivity.this, android.R.anim.slide_out_right);
+                                    instBut.startAnimation(fadeInAnimation);
+                                    instBut.startAnimation(fadeInAnimation);
+                                    floatingActionButton2.startAnimation(fadeOutAnimation1);
+                                }
+                            });
 
                             faceBut.setOnClickListener(new View.OnClickListener() {
                                 @Override
@@ -129,8 +161,40 @@ public class MainScreenActivity extends AppCompatActivity {
 
                             ImageView mapBut = dialog.findViewById(R.id.imageView43);
                             ImageView instBut = dialog.findViewById(R.id.imageView50);
+                            FloatingActionButton floatingActionButton2 = dialog.findViewById(R.id.floatingActionButton2);
                             ImageView faceBut = dialog.findViewById(R.id.imageView51);
                             FloatingActionButton floatingActionButton = dialog.findViewById(R.id.floatingActionButton);
+
+
+                            ImageView num1 = dialog.findViewById(R.id.imageView48);
+                            ImageView num2 = dialog.findViewById(R.id.imageView49);
+                            num2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    String dial = "tel:" + "0953836588";
+                                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                                }
+                            });
+                            num1.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    String dial = "tel:" + "0535556530";
+                                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(dial)));
+                                }
+                            });
+                            floatingActionButton2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    floatingActionButton2.setVisibility(View.INVISIBLE);
+                                    instBut.setVisibility(View.VISIBLE);
+                                    faceBut.setVisibility(View.VISIBLE);
+                                    Animation fadeInAnimation = AnimationUtils.loadAnimation(MainScreenActivity.this, android.R.anim.fade_in);
+                                    Animation fadeOutAnimation1 = AnimationUtils.loadAnimation(MainScreenActivity.this, android.R.anim.slide_out_right);
+                                    instBut.startAnimation(fadeInAnimation);
+                                    instBut.startAnimation(fadeInAnimation);
+                                    floatingActionButton2.startAnimation(fadeOutAnimation1);
+                                }
+                            });
 
                             faceBut.setOnClickListener(new View.OnClickListener() {
                                 @Override

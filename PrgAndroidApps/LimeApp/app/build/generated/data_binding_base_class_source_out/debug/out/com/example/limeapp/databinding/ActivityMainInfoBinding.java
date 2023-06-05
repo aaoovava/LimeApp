@@ -25,6 +25,9 @@ public final class ActivityMainInfoBinding implements ViewBinding {
   public final FloatingActionButton floatingActionButton;
 
   @NonNull
+  public final FloatingActionButton floatingActionButton2;
+
+  @NonNull
   public final ImageView imageView29;
 
   @NonNull
@@ -67,7 +70,8 @@ public final class ActivityMainInfoBinding implements ViewBinding {
   public final ScrollView scrollView2;
 
   private ActivityMainInfoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FloatingActionButton floatingActionButton, @NonNull ImageView imageView29,
+      @NonNull FloatingActionButton floatingActionButton,
+      @NonNull FloatingActionButton floatingActionButton2, @NonNull ImageView imageView29,
       @NonNull ImageView imageView31, @NonNull ImageView imageView39,
       @NonNull ImageView imageView42, @NonNull ImageView imageView43,
       @NonNull ImageView imageView44, @NonNull ImageView imageView45,
@@ -77,6 +81,7 @@ public final class ActivityMainInfoBinding implements ViewBinding {
       @NonNull ScrollView scrollView2) {
     this.rootView = rootView;
     this.floatingActionButton = floatingActionButton;
+    this.floatingActionButton2 = floatingActionButton2;
     this.imageView29 = imageView29;
     this.imageView31 = imageView31;
     this.imageView39 = imageView39;
@@ -123,6 +128,12 @@ public final class ActivityMainInfoBinding implements ViewBinding {
       id = R.id.floatingActionButton;
       FloatingActionButton floatingActionButton = ViewBindings.findChildViewById(rootView, id);
       if (floatingActionButton == null) {
+        break missingId;
+      }
+
+      id = R.id.floatingActionButton2;
+      FloatingActionButton floatingActionButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (floatingActionButton2 == null) {
         break missingId;
       }
 
@@ -211,9 +222,9 @@ public final class ActivityMainInfoBinding implements ViewBinding {
       }
 
       return new ActivityMainInfoBinding((ConstraintLayout) rootView, floatingActionButton,
-          imageView29, imageView31, imageView39, imageView42, imageView43, imageView44, imageView45,
-          imageView46, imageView47, imageView48, imageView49, imageView50, imageView51,
-          scrollView2);
+          floatingActionButton2, imageView29, imageView31, imageView39, imageView42, imageView43,
+          imageView44, imageView45, imageView46, imageView47, imageView48, imageView49, imageView50,
+          imageView51, scrollView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

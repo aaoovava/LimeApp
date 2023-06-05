@@ -3361,6 +3361,7 @@ drawable table
 drawable tablesr
 drawable test_level_drawable
 drawable text_edit
+drawable three_dots_svgrepo_com
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user_profile_4255_1
@@ -3632,6 +3633,7 @@ id fixed
 id flip
 id floating
 id floatingActionButton
+id floatingActionButton2
 id forever
 id fragment_container_view_tag
 id frost
