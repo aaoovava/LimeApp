@@ -295,6 +295,7 @@ public class MainScreenActivity extends AppCompatActivity {
                                 }else if (comparison > 0){
                                     HashMap<String,Object> j  = new HashMap<>();
                                     j.put("group_t_status","3");
+                                    j.put("countOfGT","0");
                                     j.put("group_t_start_date","немає");
                                     j.put("group_t_end_date","немає");
                                     users.child(auth.getCurrentUser().getUid()).updateChildren(j);
