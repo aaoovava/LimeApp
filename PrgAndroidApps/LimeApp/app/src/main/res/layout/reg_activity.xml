@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.64"
 
         app:srcCompat="@drawable/fon_sh" />
 
@@ -109,7 +109,7 @@
         android:drawableLeft="@drawable/rectangle_7oki"
         android:drawablePadding="40dp"
         android:ems="10"
-        android:hint="Номер (+380) ..."
+        android:hint="Приклад (096430...)"
         android:imeOptions="actionDone"
         android:inputType="phone"
         android:textColorHint="@color/white"
@@ -188,7 +188,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/butons_st"
-        android:text="ЗРЕЙСТРУВАТИСЯ "
+        android:text="ЗАРЕЙСТРУВАТИСЯ "
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
