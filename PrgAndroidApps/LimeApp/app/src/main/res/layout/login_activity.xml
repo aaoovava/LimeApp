@@ -72,7 +72,7 @@
         android:drawablePadding="40dp"
         android:ems="10"
         android:textColorHint="@color/white"
-        android:hint="(+380)..."
+        android:hint="Phone number"
 
         android:inputType="phone"
         android:text=""
